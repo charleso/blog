@@ -1,0 +1,1317 @@
+<?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet href="http://www.blogger.com/styles/atom.css" type="text/css"?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:georss='http://www.georss.org/georss' xmlns:gd='http://schemas.google.com/g/2005' xmlns:thr='http://purl.org/syndication/thread/1.0'><id>tag:blogger.com,1999:blog-8602458710133943982.archive</id><updated>2011-05-23T01:39:55.247-07:00</updated><title type='text'>Plunkett</title><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://blog.charleso.org/feeds/archive'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/archive'/><link rel='http://schemas.google.com/g/2005#post' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/archive'/><link rel='alternate' type='text/html' href='http://blog.charleso.org/'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author><generator version='7.00' uri='http://www.blogger.com'>Blogger</generator>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.layout</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#template'/><title type='text'>Template: Plunkett</title><content type='text'>&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'&gt;
+  &lt;head&gt;
+    &lt;b:include data='blog' name='all-head-content'/&gt;
+    &lt;title&gt;&lt;data:blog.pageTitle/&gt;&lt;/title&gt;
+    &lt;b:skin&gt;&lt;![CDATA[/*
+-----------------------------------------------
+Blogger Template Style
+Name:     565
+Date:     28 Feb 2004
+Updated by: Blogger Team
+----------------------------------------------- */
+
+/* Variable definitions
+   ====================
+
+  &lt;Variable name="mainBgColor" description="Main Background Color"
+            type="color" default="#ccddbb" value="#ccddbb"&gt;
+  &lt;Variable name="mainTextColor" description="Text Color"
+            type="color" default="#333333" value="#333333"&gt;
+  &lt;Variable name="mainLinkColor" description="Link Color"
+            type="color" default="#338888" value="#338888"&gt;
+  &lt;Variable name="mainVisitedLinkColor" description="Visited Link Color"
+            type="color" default="#777766" value="#777766"&gt;
+  &lt;Variable name="dateHeaderColor" description="Date Header Color"
+            type="color" default="#ffffff" value="#ffffff"&gt;
+  &lt;Variable name="postTitleColor" description="Post Title Color"
+            type="color" default="#333333" value="#333333"&gt;
+
+  &lt;Variable name="sidebarBgColor" description="Sidebar Background Color"
+            type="color" default="#556655" value="#556655"&gt;
+  &lt;Variable name="sidebarHeaderColor" description="Sidebar Title Color"
+            type="color" default="#889977" value="#889977"&gt;
+  &lt;Variable name="sidebarTextColor" description="Sidebar Text Color"
+            type="color" default="#ccddbb" value="#ccddbb"&gt;
+  &lt;Variable name="sidebarLinkColor" description="Sidebar Link Color"
+            type="color" default="#ffffff" value="#ffffff"&gt;
+  &lt;Variable name="sidebarVisitedLinkColor"
+            description="Sidebar Visited Link Color"
+            type="color" default="#aabb99" value="#aabb99"&gt;
+
+  &lt;Variable name="descColor" description="Blog Description Color"
+            type="color" default="#ffffff" value="#ffffff"&gt;
+  &lt;Variable name="bodyFont" description="Text Font"
+            type="font" default="normal normal 100% Verdana, Sans-serif" value="normal normal 100% Verdana, Sans-serif"&gt;
+  &lt;Variable name="titleFont" description="Blog Title Font"
+            type="font" default="normal bold 275% Helvetica, Arial, Verdana, Sans-serif" value="normal bold 275% Helvetica, Arial, Verdana, Sans-serif"&gt;
+  &lt;Variable name="sidebarHeaderFont" description="Sidebar Title Font"
+            type="font" default="normal bold 125% Helvetica, Arial, Verdana, Sans-serif" value="normal bold 125% Helvetica, Arial, Verdana, Sans-serif"&gt;
+  &lt;Variable name="dateHeaderFont" description="Date Header Font"
+            type="font" default="normal bold 112% Arial, Verdana, Sans-serif" value="normal bold 112% Arial, Verdana, Sans-serif"&gt;
+   &lt;Variable name="startSide" description="Start side in blog language"
+             type="automatic" default="left" value="left"&gt;
+   &lt;Variable name="endSide" description="End side in blog language"
+             type="automatic" default="right" value="right"&gt;
+*/
+
+body {
+  background-color: #ccddbb;
+  margin:0;
+  font: x-small Verdana, Sans-serif;
+  text-align:center;
+  color:#333;
+  font-size/* */:/**/small;
+  font-size: /**/small;
+  }
+
+
+/* Page Structure
+----------------------------------------------- */
+#outer-wrapper {
+  position:relative;
+  top:4px;
+  $startSide:4px;
+  background: #889977;
+  width:744px;
+  margin:10px auto;
+  text-align:$startSide;
+  font: $bodyFont;
+  }
+#wrap2 {
+  position:relative;
+  top:-4px;
+  $startSide:-4px;
+  background:#fff;
+  padding:10px;
+  border: 1px solid #fff;
+  }
+
+#content-wrapper {
+  width:100%;
+  background-color: #fff;
+}
+#main-wrapper {
+  background: $mainBgColor url("http://www.blogblog.com/no565/corner_main_$startSide.gif") no-repeat $endSide top;
+  width:460px;
+  float:$startSide;
+  color:$mainTextColor;
+  font-size: 85%;
+  word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+  overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+  }
+#main {
+  margin:0;
+  padding:15px 20px;
+  }
+#sidebar-wrapper {
+  background:$sidebarBgColor url("http://www2.blogblog.com/no565/corner_sidebar_$startSide.gif") no-repeat $startSide top;
+  width:254px;
+  float:$endSide;
+  padding:0;
+  color: $sidebarTextColor;
+  font-size: 83%;
+  word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+  overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+  }
+#sidebar {
+  margin:0;
+  padding:2px 20px 10px;
+  }
+
+#footer { 
+  display:none;
+ }
+
+/* Links
+----------------------------------------------- */
+a:link {
+  color:$mainLinkColor;
+  text-decoration:none;
+  }
+a:visited {
+  color: $mainVisitedLinkColor;
+  text-decoration:none;
+  }
+a:hover {
+  color: $mainVisitedLinkColor;
+  text-decoration:underline;
+  }
+a img {
+  border-width:0;
+  }
+
+#sidebar a {
+  color: $sidebarLinkColor;
+}
+#sidebar a:visited {
+  color: $sidebarVisitedLinkColor;
+}
+#sidebar a:hover {
+  color: $sidebarVisitedLinkColor;
+}
+
+
+/* Header
+----------------------------------------------- */
+#header-wrapper { 
+  background: #fff;
+  padding-bottom: 4px;
+  position: relative;
+  min-height: 190px;
+  _height: 0px;
+ }
+
+#header .titlewrapper {
+  background:#be4 url("http://www.blogblog.com/no565/topleft_$startSide.gif") no-repeat $startSide bottom;
+  padding-top:0;
+  padding-$endSide:0;
+  padding-bottom:0;
+  padding-$startSide:160px;
+  margin:0px 0px 10px 0px;
+  color:#fff;
+  width:100%;
+  width/* */:/**/auto;
+  width:auto;
+  _height: 0px;
+  min-height: 100px;
+  }
+#header h1 {
+  background:url("http://www1.blogblog.com/no565/bg_header.gif") no-repeat $startSide top;
+  margin:0;
+  padding:70px 0 30px;
+  line-height: 97px;
+  font: $titleFont;
+  text-transform:lowercase;
+  _height: 0px;
+  }
+#header h1 a {
+  color:#fff;
+  text-decoration:none;
+  }
+.postpage #header h1 {
+  padding-top:0;
+  background-position:0 -40px;
+  }
+
+.clear { clear: both; }
+
+/* Description
+----------------------------------------------- */
+#header .descriptionwrapper {
+  background: #ff9900 url("http://www2.blogblog.com/no565/bg_desc_top_$startSide.gif") no-repeat $startSide top;
+  margin:0 0 6px;
+  padding:12px 0 0;
+  color: $descColor;
+  font-size: 75%;
+  border-bottom: 1px solid #ffffff;
+  width: 100%;
+  }
+#header .description {
+  background:url("http://www.blogblog.com/no565/bg_desc_bot_$startSide.gif") no-repeat $startSide bottom;
+  margin:0;
+  padding:0 0 12px;
+  display:block;
+  line-height: 1.6em;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  min-height:12px;
+  border-bottom: 1px solid #ffffff;
+}
+
+#header .description span {
+  /* To remove the word next to the description, delete the following background property */
+  background:url("http://www2.blogblog.com/no565/temp_no.gif") no-repeat $startSide center;
+  /* Keep everything below */
+  display:block;
+  padding-top:0;
+  padding-$endSide:0;
+  padding-bottom:0;
+  padding-$startSide:160px;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  min-height:12px;
+  }
+
+
+.postpage #description em {
+  font-size:1px;
+  line-height:1px;
+  color:$descColor;
+  visibility:hidden;
+  }
+
+/* Posts
+----------------------------------------------- */
+h2.date-header {
+  margin:0 0 .5em;
+  line-height: 1.4em;
+  font: $dateHeaderFont;
+  text-transform:lowercase;
+  color:$dateHeaderColor;
+  }
+.post {
+  margin:0 0 2em;
+  }
+.post h3 {
+  margin:0 0 .25em;
+  line-height: 1.4em;
+  font-weight: bold;
+  font-size: 150%;
+  color:$postTitleColor;
+  }
+.post h3 a {
+  text-decoration:none;
+  color:$postTitleColor;
+  }
+.post h3 a:link { 
+  color: $postTitleColor;
+ }
+.post h3 a:hover {
+  color: $mainVisitedLinkColor;
+  }
+.post-body {
+  margin:0 0 .75em;
+  line-height:1.6em;
+  }
+.post-body blockquote {
+  line-height:1.3em;  
+  }
+.post-footer {
+  color:$postTitleColor;
+  text-transform:lowercase;
+  }
+.post-footer .post-author,
+.post-footer .post-timestamp {
+  font-style:normal;
+  }
+.post blockquote {
+  margin:1em 20px;
+  padding:5px 0;
+  border:2px solid #dec;
+  border-width:2px 0;
+  }
+.post blockquote p {
+  margin:.5em 0;
+  }
+.post img {
+  border:5px solid #fff;
+  }
+
+
+/* Comments
+----------------------------------------------- */
+#comments {
+  margin:2em 0 0;
+  border-top:2px solid #dec;
+  padding-top:1em;
+  }
+#comments h4 {
+  margin:0 0 .25em;
+  font-weight: bold;
+  line-height: 1.4em;
+  font-size: 150%;
+  text-transform:lowercase;
+  color: #366;
+  }
+#comments-block {
+  margin-top:0;
+  margin-$endSide:0;
+  margin-bottom:1em;
+  margin-$startSide:0;
+  line-height:1.6em;
+  }
+.comment-author {
+  margin:0 0 .25em;
+  font-weight: bold;
+  line-height: 1.4em;
+  font-size: 112%;
+  text-transform:lowercase;
+  }
+.comment-body, .comment-body p {
+  margin:0 0 .75em;
+  }
+p.comment-footer {
+  margin:-.25em 0 2em;
+  }
+
+.deleted-comment {
+  font-style:italic;
+  color:gray;
+  }
+
+.feed-links {
+  clear: both;
+  line-height: 2.5em;
+}
+
+#blog-pager-newer-link {
+  float: $startSide;
+ }
+ 
+#blog-pager-older-link {
+  float: $endSide;
+ }
+ 
+#blog-pager {   
+  text-align: center; 
+ }
+
+/* Sidebar
+----------------------------------------------- */
+.sidebar h2 {
+  margin:1em 0 .25em;
+  line-height: 1.4em;
+  font: $sidebarHeaderFont;
+  color: $sidebarHeaderColor;
+  text-transform:lowercase;
+  }
+.sidebar .widget {
+  margin:0 0 1.5em;
+  padding:0;
+  }
+.sidebar ul {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+.sidebar li {
+  margin:0;
+  padding-top:0;
+  padding-$endSide:0;
+  padding-bottom:.25em;
+  padding-$startSide:20px;
+  text-indent:-20px;
+  line-height:1.4em;
+}
+
+
+/* Profile 
+----------------------------------------------- */
+.profile-datablock, .profile-textblock {
+  margin:0 0 .75em;
+  line-height:1.4em;
+}
+.profile-img { 
+  float: $startSide;
+  margin-top: 0;
+  margin-$endSide: 5px;
+  margin-bottom: 5px;
+  margin-$startSide: 0;
+  border: 5px solid $sidebarHeaderColor;
+}
+.profile-data { 
+  font-weight: bold;
+}
+
+/* Misc
+----------------------------------------------- */
+#footer-wrapper {
+  clear:both;
+  display:block;
+  height:1px;
+  margin:0;
+  padding:0;
+  font-size:1px;
+  line-height:1px;
+  }
+
+/** Page structure tweaks for layout editor wireframe */
+body#layout #outer-wrapper { 
+ margin-top: 0;
+}
+body#layout #main,
+body#layout #sidebar { 
+  padding: 0;
+ }
+body#layout #main-wrapper,
+body#layout #sidebar-wrapper { 
+ height: auto;
+ }
+]]&gt;&lt;/b:skin&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+  &lt;div id='outer-wrapper'&gt;&lt;div id='wrap2'&gt;
+
+    &lt;!-- skip links for text browsers --&gt;
+    &lt;span id='skiplinks' style='display:none;'&gt;
+      &lt;a href='#main'&gt;skip to main &lt;/a&gt; |
+      &lt;a href='#sidebar'&gt;skip to sidebar&lt;/a&gt;
+    &lt;/span&gt;
+
+    &lt;div id='header-wrapper'&gt;
+      &lt;b:section class='header' id='header' maxwidgets='1' showaddelement='no'&gt;
+&lt;b:widget id='Header1' locked='true' title='Plunkett (Header)' type='Header'&gt;
+&lt;b:includable id='main'&gt;
+
+  &lt;b:if cond='data:useImage'&gt;
+    &lt;b:if cond='data:imagePlacement == &amp;quot;BEHIND&amp;quot;'&gt;
+      &lt;!--
+      Show image as background to text. You can't really calculate the width
+      reliably in JS because margins are not taken into account by any of
+      clientWidth, offsetWidth or scrollWidth, so we don't force a minimum
+      width if the user is using shrink to fit.
+      This results in a margin-width's worth of pixels being cropped. If the
+      user is not using shrink to fit then we expand the header.
+      --&gt;
+      &lt;b:if cond='data:mobile'&gt;
+          &lt;div id='header-inner'&gt;
+            &lt;div class='titlewrapper' style='background: transparent'&gt;
+              &lt;h1 class='title' style='background: transparent; border-width: 0px'&gt;
+                &lt;b:include name='title'/&gt;
+              &lt;/h1&gt;
+            &lt;/div&gt;
+            &lt;b:include name='description'/&gt;
+          &lt;/div&gt;
+        &lt;b:else/&gt;
+          &lt;div expr:style='&amp;quot;background-image: url(\&amp;quot;&amp;quot; + data:sourceUrl + &amp;quot;\&amp;quot;); &amp;quot;                        + &amp;quot;background-position: &amp;quot;                        + data:backgroundPositionStyleStr + &amp;quot;; &amp;quot;                        + data:widthStyleStr                        + &amp;quot;min-height: &amp;quot; + data:height                        + &amp;quot;_height: &amp;quot; + data:height                        + &amp;quot;background-repeat: no-repeat; &amp;quot;' id='header-inner'&gt;
+            &lt;div class='titlewrapper' style='background: transparent'&gt;
+              &lt;h1 class='title' style='background: transparent; border-width: 0px'&gt;
+                &lt;b:include name='title'/&gt;
+              &lt;/h1&gt;
+            &lt;/div&gt;
+            &lt;b:include name='description'/&gt;
+          &lt;/div&gt;
+        &lt;/b:if&gt;
+    &lt;b:else/&gt;
+      &lt;!--Show the image only--&gt;
+      &lt;div id='header-inner'&gt;
+        &lt;a expr:href='data:blog.homepageUrl' style='display: block'&gt;
+          &lt;img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &amp;quot;_headerimg&amp;quot;' expr:src='data:sourceUrl' expr:width='data:width' style='display: block'/&gt;
+        &lt;/a&gt;
+        &lt;!--Show the description--&gt;
+        &lt;b:if cond='data:imagePlacement == &amp;quot;BEFORE_DESCRIPTION&amp;quot;'&gt;
+          &lt;b:include name='description'/&gt;
+        &lt;/b:if&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+  &lt;b:else/&gt;
+    &lt;!--No header image --&gt;
+    &lt;div id='header-inner'&gt;
+      &lt;div class='titlewrapper'&gt;
+        &lt;h1 class='title'&gt;
+          &lt;b:include name='title'/&gt;
+        &lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;b:include name='description'/&gt;
+    &lt;/div&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='title'&gt;
+  &lt;b:if cond='data:blog.url == data:blog.homepageUrl'&gt;
+    &lt;data:title/&gt;
+  &lt;b:else/&gt;
+    &lt;a expr:href='data:blog.homepageUrl'&gt;&lt;data:title/&gt;&lt;/a&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='description'&gt;
+  &lt;div class='descriptionwrapper'&gt;
+    &lt;p class='description'&gt;&lt;span&gt;&lt;data:description/&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;/b:widget&gt;
+&lt;/b:section&gt;
+    &lt;/div&gt;
+ 
+    &lt;div id='content-wrapper'&gt;
+
+      &lt;div id='crosscol-wrapper' style='text-align:center'&gt;
+        &lt;b:section class='crosscol' id='crosscol'/&gt;
+      &lt;/div&gt;
+
+      &lt;div id='main-wrapper'&gt;
+        &lt;b:section class='main' id='main' showaddelement='no'&gt;
+&lt;b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'&gt;
+&lt;b:includable id='nextprev'&gt;
+  &lt;div class='blog-pager' id='blog-pager'&gt;
+    &lt;b:if cond='data:newerPageUrl'&gt;
+      &lt;span id='blog-pager-newer-link'&gt;
+      &lt;a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-newer-link&amp;quot;' expr:title='data:newerPageTitle'&gt;&lt;data:newerPageTitle/&gt;&lt;/a&gt;
+      &lt;/span&gt;
+    &lt;/b:if&gt;
+
+    &lt;b:if cond='data:olderPageUrl'&gt;
+      &lt;span id='blog-pager-older-link'&gt;
+      &lt;a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-older-link&amp;quot;' expr:title='data:olderPageTitle'&gt;&lt;data:olderPageTitle/&gt;&lt;/a&gt;
+      &lt;/span&gt;
+    &lt;/b:if&gt;
+
+    &lt;a class='home-link' expr:href='data:blog.homepageUrl'&gt;&lt;data:homeMsg/&gt;&lt;/a&gt;
+
+    &lt;b:if cond='data:mobileLinkUrl'&gt;
+      &lt;div class='blog-mobile-link'&gt;
+        &lt;a expr:href='data:mobileLinkUrl'&gt;&lt;data:mobileLinkMsg/&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+  &lt;/div&gt;
+  &lt;div class='clear'/&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='shareButtons' var='post'&gt;
+  &lt;b:if cond='data:top.showEmailButton'&gt;&lt;a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=email&amp;quot;' expr:title='data:top.emailThisMsg' target='_blank'&gt;
+      &lt;span class='share-button-link-text'&gt;&lt;data:top.emailThisMsg/&gt;&lt;/span&gt;
+  &lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showBlogThisButton'&gt;&lt;a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=blog&amp;quot;' expr:onclick='&amp;quot;window.open(this.href, \&amp;quot;_blank\&amp;quot;, \&amp;quot;height=270,width=475\&amp;quot;); return false;&amp;quot;' expr:title='data:top.blogThisMsg' target='_blank'&gt;
+      &lt;span class='share-button-link-text'&gt;&lt;data:top.blogThisMsg/&gt;&lt;/span&gt;
+  &lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showTwitterButton'&gt;&lt;a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=twitter&amp;quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'&gt;
+      &lt;span class='share-button-link-text'&gt;&lt;data:top.shareToTwitterMsg/&gt;&lt;/span&gt;
+  &lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showFacebookButton'&gt;&lt;a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=facebook&amp;quot;' expr:onclick='&amp;quot;window.open(this.href, \&amp;quot;_blank\&amp;quot;, \&amp;quot;height=430,width=640\&amp;quot;); return false;&amp;quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'&gt;
+      &lt;span class='share-button-link-text'&gt;&lt;data:top.shareToFacebookMsg/&gt;&lt;/span&gt;
+  &lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showOrkutButton'&gt;&lt;a class='goog-inline-block share-button sb-orkut' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=orkut&amp;quot;' expr:title='data:top.shareToOrkutMsg' target='_blank'&gt;
+      &lt;span class='share-button-link-text'&gt;&lt;data:top.shareToOrkutMsg/&gt;&lt;/span&gt;
+  &lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showBuzzButton'&gt;&lt;a class='goog-inline-block share-button sb-buzz' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=buzz&amp;quot;' expr:onclick='&amp;quot;window.open(this.href, \&amp;quot;_blank\&amp;quot;, \&amp;quot;height=415,width=690\&amp;quot;); return false;&amp;quot;' expr:title='data:top.shareToBuzzMsg' target='_blank'&gt;
+      &lt;span class='share-button-link-text'&gt;&lt;data:top.shareToBuzzMsg/&gt;&lt;/span&gt;
+  &lt;/a&gt;&lt;/b:if&gt;
+  &lt;b:if cond='data:top.showDummy'&gt;
+    &lt;div class='goog-inline-block dummy-container'&gt;&lt;data:post.dummyTag/&gt;&lt;/div&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='backlinks' var='post'&gt;
+  &lt;a name='links'/&gt;&lt;h4&gt;&lt;data:post.backlinksLabel/&gt;&lt;/h4&gt;
+  &lt;b:if cond='data:post.numBacklinks != 0'&gt;
+    &lt;dl class='comments-block' id='comments-block'&gt;
+      &lt;b:loop values='data:post.backlinks' var='backlink'&gt;
+        &lt;div class='collapsed-backlink backlink-control'&gt;
+          &lt;dt class='comment-title'&gt;
+            &lt;span class='backlink-toggle-zippy'&gt;&amp;#160;&lt;/span&gt;
+            &lt;a expr:href='data:backlink.url' rel='nofollow'&gt;&lt;data:backlink.title/&gt;&lt;/a&gt;
+            &lt;b:include data='backlink' name='backlinkDeleteIcon'/&gt;
+          &lt;/dt&gt;
+          &lt;dd class='comment-body collapseable'&gt;
+            &lt;data:backlink.snippet/&gt;
+          &lt;/dd&gt;
+          &lt;dd class='comment-footer collapseable'&gt;
+            &lt;span class='comment-author'&gt;&lt;data:post.authorLabel/&gt; &lt;data:backlink.author/&gt;&lt;/span&gt;
+            &lt;span class='comment-timestamp'&gt;&lt;data:post.timestampLabel/&gt; &lt;data:backlink.timestamp/&gt;&lt;/span&gt;
+          &lt;/dd&gt;
+        &lt;/div&gt;
+      &lt;/b:loop&gt;
+    &lt;/dl&gt;
+  &lt;/b:if&gt;
+  &lt;p class='comment-footer'&gt;
+    &lt;a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &amp;quot;_backlinks-create-link&amp;quot;' target='_blank'&gt;&lt;data:post.createLinkLabel/&gt;&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='post' var='post'&gt;
+  &lt;div class='post hentry'&gt;
+    &lt;a expr:name='data:post.id'/&gt;
+    &lt;b:if cond='data:post.title'&gt;
+      &lt;h3 class='post-title entry-title'&gt;
+      &lt;b:if cond='data:post.link'&gt;
+        &lt;a expr:href='data:post.link'&gt;&lt;data:post.title/&gt;&lt;/a&gt;
+      &lt;b:else/&gt;
+        &lt;b:if cond='data:post.url'&gt;
+          &lt;b:if cond='data:blog.url != data:post.url'&gt;
+            &lt;a expr:href='data:post.url'&gt;&lt;data:post.title/&gt;&lt;/a&gt;
+          &lt;b:else/&gt;
+            &lt;data:post.title/&gt;
+          &lt;/b:if&gt;
+        &lt;b:else/&gt;
+          &lt;data:post.title/&gt;
+        &lt;/b:if&gt;
+      &lt;/b:if&gt;
+      &lt;/h3&gt;
+    &lt;/b:if&gt;
+
+    &lt;div class='post-header'&gt;
+    &lt;div class='post-header-line-1'/&gt;
+    &lt;/div&gt;
+
+    &lt;div class='post-body entry-content' expr:id='&amp;quot;post-body-&amp;quot; + data:post.id'&gt;
+      &lt;data:post.body/&gt;
+      &lt;div style='clear: both;'/&gt; &lt;!-- clear for photos floats --&gt;
+    &lt;/div&gt;
+
+    &lt;b:if cond='data:post.hasJumpLink'&gt;
+      &lt;div class='jump-link'&gt;
+        &lt;a expr:href='data:post.url + &amp;quot;#more&amp;quot;' expr:title='data:post.title'&gt;&lt;data:post.jumpText/&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div class='post-footer'&gt;
+    &lt;div class='post-footer-line post-footer-line-1'&gt;&lt;span class='post-author vcard'&gt;
+        &lt;b:if cond='data:top.showAuthor'&gt;
+          &lt;data:top.authorLabel/&gt;
+          &lt;span class='fn'&gt;&lt;data:post.author/&gt;&lt;/span&gt;
+        &lt;/b:if&gt;
+      &lt;/span&gt; &lt;span class='post-timestamp'&gt;
+        &lt;b:if cond='data:top.showTimestamp'&gt;
+          &lt;data:top.timestampLabel/&gt;
+        &lt;b:if cond='data:post.url'&gt;
+          &lt;a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'&gt;&lt;abbr class='published' expr:title='data:post.timestampISO8601'&gt;&lt;data:post.timestamp/&gt;&lt;/abbr&gt;&lt;/a&gt;
+        &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/span&gt; &lt;span class='post-comment-link'&gt;
+        &lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt;
+          &lt;b:if cond='data:blog.pageType != &amp;quot;static_page&amp;quot;'&gt;
+            &lt;b:if cond='data:post.allowComments'&gt;
+              &lt;a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;&lt;b:if cond='data:post.numComments == 1'&gt;1 &lt;data:top.commentLabel/&gt;&lt;b:else/&gt;&lt;data:post.numComments/&gt; &lt;data:top.commentLabelPlural/&gt;&lt;/b:if&gt;&lt;/a&gt;
+            &lt;/b:if&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/span&gt; &lt;span class='post-icons'&gt;
+        &lt;!-- email post links --&gt;
+        &lt;b:if cond='data:post.emailPostUrl'&gt;
+          &lt;span class='item-action'&gt;
+          &lt;a expr:href='data:post.emailPostUrl' expr:title='data:top.emailPostMsg'&gt;
+              &lt;img alt='' class='icon-action' height='13' src='http://img1.blogblog.com/img/icon18_email.gif' width='18'/&gt;
+          &lt;/a&gt;
+          &lt;/span&gt;
+        &lt;/b:if&gt;
+
+        &lt;!-- quickedit pencil --&gt;
+        &lt;b:include data='post' name='postQuickEdit'/&gt;
+      &lt;/span&gt; &lt;div class='post-share-buttons goog-inline-block'&gt;
+        &lt;b:if cond='data:post.sharePostUrl'&gt;
+          &lt;b:include data='post' name='shareButtons'/&gt;
+        &lt;/b:if&gt;
+      &lt;/div&gt; &lt;/div&gt;
+
+      &lt;div class='post-footer-line post-footer-line-2'&gt;&lt;span class='post-labels'&gt;
+        &lt;b:if cond='data:post.labels'&gt;
+          &lt;data:postLabelsLabel/&gt;
+          &lt;b:loop values='data:post.labels' var='label'&gt;
+            &lt;a expr:href='data:label.url' rel='tag'&gt;&lt;data:label.name/&gt;&lt;/a&gt;&lt;b:if cond='data:label.isLast != &amp;quot;true&amp;quot;'&gt;,&lt;/b:if&gt;
+          &lt;/b:loop&gt;
+        &lt;/b:if&gt;
+      &lt;/span&gt; &lt;/div&gt;
+
+      &lt;div class='post-footer-line post-footer-line-3'/&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='status-message'&gt;
+  &lt;b:if cond='data:navMessage'&gt;
+  &lt;div class='status-msg-wrap'&gt;
+    &lt;div class='status-msg-body'&gt;
+      &lt;data:navMessage/&gt;
+    &lt;/div&gt;
+    &lt;div class='status-msg-border'&gt;
+      &lt;div class='status-msg-bg'&gt;
+        &lt;div class='status-msg-hidden'&gt;&lt;data:navMessage/&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style='clear: both;'/&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='comment-form' var='post'&gt;
+  &lt;div class='comment-form'&gt;
+    &lt;a name='comment-form'/&gt;
+    &lt;b:if cond='data:mobile'&gt;
+      &lt;h4 id='comment-post-message'&gt;
+        &lt;a expr:id='data:widget.instanceId + &amp;quot;_comment-editor-toggle-link&amp;quot;' href='javascript:void(0)'&gt;&lt;data:postCommentMsg/&gt;&lt;/a&gt;&lt;/h4&gt;
+      &lt;p&gt;&lt;data:blogCommentMessage/&gt;&lt;/p&gt;
+      &lt;data:blogTeamBlogMessage/&gt;
+      &lt;a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/&gt;
+      &lt;iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/&gt;
+    &lt;b:else/&gt;
+      &lt;h4 id='comment-post-message'&gt;&lt;data:postCommentMsg/&gt;&lt;/h4&gt;
+      &lt;p&gt;&lt;data:blogCommentMessage/&gt;&lt;/p&gt;
+      &lt;data:blogTeamBlogMessage/&gt;
+      &lt;a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/&gt;
+      &lt;iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'/&gt;
+    &lt;/b:if&gt;
+    &lt;data:post.friendConnectJs/&gt;
+    &lt;data:post.cmtfpIframe/&gt;
+    &lt;script type='text/javascript'&gt;
+      BLOG_CMT_createIframe(&amp;#39;&lt;data:post.appRpcRelayPath/&gt;&amp;#39;, &amp;#39;&lt;data:post.communityId/&gt;&amp;#39;);
+    &lt;/script&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='backlinkDeleteIcon' var='backlink'&gt;
+  &lt;span expr:class='&amp;quot;item-control &amp;quot; + data:backlink.adminClass'&gt;
+    &lt;a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'&gt;
+      &lt;img src='//www.blogger.com/img/icon_delete13.gif'/&gt;
+    &lt;/a&gt;
+  &lt;/span&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='mobile-nextprev'&gt;
+  &lt;div class='blog-pager' id='blog-pager'&gt;
+    &lt;b:if cond='data:newerPageUrl'&gt;
+      &lt;div class='mobile-link-button' id='blog-pager-newer-link'&gt;
+      &lt;a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-newer-link&amp;quot;' expr:title='data:newerPageTitle'&gt;&amp;amp;laquo;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;b:if cond='data:olderPageUrl'&gt;
+      &lt;div class='mobile-link-button' id='blog-pager-older-link'&gt;
+      &lt;a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-older-link&amp;quot;' expr:title='data:olderPageTitle'&gt;&amp;amp;raquo;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div class='mobile-link-button' id='blog-pager-home-link'&gt;
+    &lt;a class='home-link' expr:href='data:blog.homepageUrl'&gt;&lt;data:homeMsg/&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class='mobile-desktop-link'&gt;
+      &lt;a class='home-link' expr:href='data:desktopLinkUrl'&gt;&lt;data:desktopLinkMsg/&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class='clear'/&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='postQuickEdit' var='post'&gt;
+  &lt;b:if cond='data:post.editUrl'&gt;
+    &lt;span expr:class='&amp;quot;item-control &amp;quot; + data:post.adminClass'&gt;
+      &lt;a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'&gt;
+        &lt;img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/&gt;
+      &lt;/a&gt;
+    &lt;/span&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='main' var='top'&gt;
+
+  &lt;b:if cond='data:mobileindex'&gt;
+    &lt;!-- mobile index --&gt;
+    &lt;div class='blog-posts hfeed'&gt;
+      &lt;b:loop values='data:posts' var='post'&gt;
+        &lt;b:if cond='data:post.isFirstPost == &amp;quot;false&amp;quot;'&gt;
+          &amp;lt;/div&amp;gt;
+        &lt;/b:if&gt;
+        &amp;lt;div class=&amp;quot;mobile-date-outer date-outer&amp;quot;&amp;gt;
+        &lt;b:include data='post' name='mobile-index-post'/&gt;
+        &lt;b:if cond='data:post.trackLatency'&gt;
+          &lt;data:post.latencyJs/&gt;
+        &lt;/b:if&gt;
+      &lt;/b:loop&gt;
+      &lt;b:if cond='data:numPosts != 0'&gt;
+        &amp;lt;/div&amp;gt;
+      &lt;/b:if&gt;
+    &lt;/div&gt;
+  &lt;b:else/&gt;
+
+    &lt;!-- posts --&gt;
+    &lt;div class='blog-posts hfeed'&gt;
+
+      &lt;b:include data='top' name='status-message'/&gt;
+
+      &lt;data:defaultAdStart/&gt;
+      &lt;b:loop values='data:posts' var='post'&gt;
+        &lt;b:if cond='data:post.isDateStart'&gt;
+          &lt;b:if cond='data:post.isFirstPost == &amp;quot;false&amp;quot;'&gt;
+            &amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:post.isDateStart'&gt;
+          &amp;lt;div class=&amp;quot;date-outer&amp;quot;&amp;gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:post.dateHeader'&gt;
+          &lt;h2 class='date-header'&gt;&lt;span&gt;&lt;data:post.dateHeader/&gt;&lt;/span&gt;&lt;/h2&gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:post.isDateStart'&gt;
+          &amp;lt;div class=&amp;quot;date-posts&amp;quot;&amp;gt;
+        &lt;/b:if&gt;
+        &lt;div class='post-outer'&gt;
+        &lt;b:include data='post' name='post'/&gt;
+        &lt;b:if cond='data:blog.pageType == &amp;quot;static_page&amp;quot;'&gt;
+          &lt;b:include data='post' name='comments'/&gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:blog.pageType == &amp;quot;item&amp;quot;'&gt;
+          &lt;b:include data='post' name='comments'/&gt;
+        &lt;/b:if&gt;
+        &lt;/div&gt;
+        &lt;b:if cond='data:post.includeAd'&gt;
+          &lt;b:if cond='data:post.isFirstPost'&gt;
+            &lt;data:defaultAdEnd/&gt;
+          &lt;b:else/&gt;
+            &lt;data:adEnd/&gt;
+          &lt;/b:if&gt;
+          &lt;b:if cond='data:mobile == &amp;quot;false&amp;quot;'&gt;
+            &lt;div class='inline-ad'&gt;
+              &lt;data:adCode/&gt;
+            &lt;/div&gt;
+          &lt;/b:if&gt;
+          &lt;data:adStart/&gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:post.trackLatency'&gt;
+          &lt;data:post.latencyJs/&gt;
+        &lt;/b:if&gt;
+      &lt;/b:loop&gt;
+      &lt;b:if cond='data:numPosts != 0'&gt;
+        &amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+      &lt;/b:if&gt;
+      &lt;data:adEnd/&gt;
+    &lt;/div&gt;
+  &lt;/b:if&gt;
+
+  &lt;!-- navigation --&gt;
+  &lt;b:if cond='data:mobile'&gt;
+    &lt;b:include name='mobile-nextprev'/&gt;
+  &lt;b:else/&gt;
+    &lt;b:include name='nextprev'/&gt;
+
+    &lt;!-- feed links --&gt;
+    &lt;b:include name='feedLinks'/&gt;
+  &lt;/b:if&gt;
+
+  &lt;b:if cond='data:top.showStars'&gt;
+    &lt;script src='//www.google.com/jsapi' type='text/javascript'/&gt;
+    &lt;script type='text/javascript'&gt;
+      google.load(&amp;quot;annotations&amp;quot;, &amp;quot;1&amp;quot;, {&amp;quot;locale&amp;quot;: &amp;quot;&lt;data:top.languageCode/&gt;&amp;quot;});
+      function initialize() {
+        google.annotations.setApplicationId(&lt;data:top.blogspotReviews/&gt;);
+        google.annotations.createAll();
+        google.annotations.fetch();
+      }
+      google.setOnLoadCallback(initialize);
+    &lt;/script&gt;
+  &lt;/b:if&gt;
+
+  &lt;b:if cond='data:top.showDummy'&gt;
+    &lt;data:top.dummyBootstrap/&gt;
+  &lt;/b:if&gt;
+
+&lt;/b:includable&gt;
+&lt;b:includable id='commentDeleteIcon' var='comment'&gt;
+  &lt;span expr:class='&amp;quot;item-control &amp;quot; + data:comment.adminClass'&gt;
+    &lt;b:if cond='data:showCmtPopup'&gt;
+      &lt;div class='goog-toggle-button'&gt;
+        &lt;div class='goog-inline-block comment-action-icon'/&gt;
+      &lt;/div&gt;
+    &lt;b:else/&gt;
+      &lt;a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'&gt;
+        &lt;img src='//www.blogger.com/img/icon_delete13.gif'/&gt;
+      &lt;/a&gt;
+    &lt;/b:if&gt;
+  &lt;/span&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='feedLinks'&gt;
+  &lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt; &lt;!-- Blog feed links --&gt;
+    &lt;b:if cond='data:feedLinks'&gt;
+      &lt;div class='blog-feeds'&gt;
+        &lt;b:include data='feedLinks' name='feedLinksBody'/&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;b:else/&gt; &lt;!--Post feed links --&gt;
+    &lt;div class='post-feeds'&gt;
+      &lt;b:loop values='data:posts' var='post'&gt;
+        &lt;b:if cond='data:post.allowComments'&gt;
+          &lt;b:if cond='data:post.feedLinks'&gt;
+            &lt;b:include data='post.feedLinks' name='feedLinksBody'/&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/b:loop&gt;
+    &lt;/div&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='mobile-index-post' var='post'&gt;
+  &lt;b:if cond='data:post.dateHeader'&gt;
+    &lt;div class='mobile-index-date'&gt;
+      &lt;div class='date-header'&gt;
+        &lt;span&gt;&lt;data:post.dateHeader/&gt;&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/b:if&gt;
+
+  &lt;div class='mobile-post-outer'&gt;
+    &lt;a expr:href='data:post.url'&gt;
+      &lt;div class='mobile-index-title-outer'&gt;
+        &lt;h3 class='mobile-index-title entry-title'&gt;
+          &lt;data:post.title/&gt;
+        &lt;/h3&gt;
+      &lt;/div&gt;
+
+      &lt;div&gt;
+        &lt;div class='mobile-index-arrow'&gt;
+          &amp;amp;rsaquo;
+        &lt;/div&gt;
+
+        &lt;div class='mobile-index-contents'&gt;
+          &lt;b:if cond='data:post.thumbnailUrl'&gt;
+            &lt;div class='mobile-index-thumbnail'&gt;
+              &lt;div class='Image'&gt;
+                &lt;img expr:src='data:post.thumbnailUrl'/&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/b:if&gt;
+
+          &lt;div class='post-body'&gt;
+            &lt;b:if cond='data:post.snippet'&gt;&lt;data:post.snippet/&gt;&lt;/b:if&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div style='clear: both;'/&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+
+    &lt;div class='mobile-index-comment'&gt;
+      &lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt;
+        &lt;b:if cond='data:blog.pageType != &amp;quot;static_page&amp;quot;'&gt;
+          &lt;b:if cond='data:post.allowComments'&gt;
+            &lt;b:if cond='data:post.numComments != 0'&gt;
+              &lt;a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;&lt;b:if cond='data:post.numComments == 1'&gt;1 &lt;data:top.commentLabel/&gt;&lt;b:else/&gt;&lt;data:post.numComments/&gt; &lt;data:top.commentLabelPlural/&gt;&lt;/b:if&gt;&lt;/a&gt;
+            &lt;/b:if&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/b:if&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='feedLinksBody' var='links'&gt;
+  &lt;div class='feed-links'&gt;
+  &lt;data:feedLinksMsg/&gt;
+  &lt;b:loop values='data:links' var='f'&gt;
+     &lt;a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'&gt;&lt;data:f.name/&gt; (&lt;data:f.feedType/&gt;)&lt;/a&gt;
+  &lt;/b:loop&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='comments' var='post'&gt;
+  &lt;div class='comments' id='comments'&gt;
+    &lt;a name='comments'/&gt;
+    &lt;b:if cond='data:post.allowComments'&gt;
+      &lt;h4&gt;
+        &lt;b:if cond='data:post.numComments == 1'&gt;
+          1 &lt;data:commentLabel/&gt;:
+        &lt;b:else/&gt;
+          &lt;data:post.numComments/&gt; &lt;data:commentLabelPlural/&gt;:
+        &lt;/b:if&gt;
+      &lt;/h4&gt;
+
+      &lt;b:if cond='data:post.commentPagingRequired'&gt;
+        &lt;span class='paging-control-container'&gt;
+          &lt;a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'&gt;&lt;data:post.oldestLinkText/&gt;&lt;/a&gt;
+          &amp;#160;
+          &lt;a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'&gt;&lt;data:post.olderLinkText/&gt;&lt;/a&gt;
+          &amp;#160;
+          &lt;data:post.commentRangeText/&gt;
+          &amp;#160;
+          &lt;a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'&gt;&lt;data:post.newerLinkText/&gt;&lt;/a&gt;
+          &amp;#160;
+          &lt;a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'&gt;&lt;data:post.newestLinkText/&gt;&lt;/a&gt;
+        &lt;/span&gt;
+      &lt;/b:if&gt;
+
+      &lt;div expr:id='data:widget.instanceId + &amp;quot;_comments-block-wrapper&amp;quot;'&gt;
+        &lt;dl expr:class='data:post.avatarIndentClass' id='comments-block'&gt;
+          &lt;b:loop values='data:post.comments' var='comment'&gt;
+            &lt;dt expr:class='&amp;quot;comment-author &amp;quot; + data:comment.authorClass' expr:id='data:comment.anchorName'&gt;
+              &lt;b:if cond='data:comment.favicon'&gt;
+                &lt;img expr:src='data:comment.favicon' height='16px' style='margin-bottom:-2px;' width='16px'/&gt;
+              &lt;/b:if&gt;
+              &lt;a expr:name='data:comment.anchorName'/&gt;
+              &lt;b:if cond='data:blog.enabledCommentProfileImages'&gt;
+                &lt;data:comment.authorAvatarImage/&gt;
+              &lt;/b:if&gt;
+              &lt;b:if cond='data:comment.authorUrl'&gt;
+                &lt;a expr:href='data:comment.authorUrl' rel='nofollow'&gt;&lt;data:comment.author/&gt;&lt;/a&gt;
+              &lt;b:else/&gt;
+                &lt;data:comment.author/&gt;
+              &lt;/b:if&gt;
+              &lt;data:commentPostedByMsg/&gt;
+            &lt;/dt&gt;
+            &lt;dd class='comment-body' expr:id='data:widget.instanceId + data:comment.cmtBodyIdPostfix'&gt;
+              &lt;b:if cond='data:comment.isDeleted'&gt;
+                &lt;span class='deleted-comment'&gt;&lt;data:comment.body/&gt;&lt;/span&gt;
+              &lt;b:else/&gt;
+                &lt;p&gt;
+                  &lt;data:comment.body/&gt;
+                &lt;/p&gt;
+              &lt;/b:if&gt;
+            &lt;/dd&gt;
+            &lt;dd class='comment-footer'&gt;
+              &lt;span class='comment-timestamp'&gt;
+                &lt;a expr:href='data:comment.url' title='comment permalink'&gt;
+                  &lt;data:comment.timestamp/&gt;
+                &lt;/a&gt;
+                &lt;b:include data='comment' name='commentDeleteIcon'/&gt;
+              &lt;/span&gt;
+            &lt;/dd&gt;
+          &lt;/b:loop&gt;
+        &lt;/dl&gt;
+      &lt;/div&gt;
+
+      &lt;b:if cond='data:post.commentPagingRequired'&gt;
+        &lt;span class='paging-control-container'&gt;
+          &lt;a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'&gt;
+            &lt;data:post.oldestLinkText/&gt;
+          &lt;/a&gt;
+          &lt;a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'&gt;
+            &lt;data:post.olderLinkText/&gt;
+          &lt;/a&gt;
+          &amp;#160;
+          &lt;data:post.commentRangeText/&gt;
+          &amp;#160;
+          &lt;a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'&gt;
+            &lt;data:post.newerLinkText/&gt;
+          &lt;/a&gt;
+          &lt;a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'&gt;
+            &lt;data:post.newestLinkText/&gt;
+          &lt;/a&gt;
+        &lt;/span&gt;
+      &lt;/b:if&gt;
+
+      &lt;p class='comment-footer'&gt;
+        &lt;b:if cond='data:post.embedCommentForm'&gt;
+          &lt;b:if cond='data:post.allowNewComments'&gt;
+            &lt;b:include data='post' name='comment-form'/&gt;
+          &lt;b:else/&gt;
+            &lt;data:post.noNewCommentsText/&gt;
+          &lt;/b:if&gt;
+        &lt;b:else/&gt;
+          &lt;b:if cond='data:post.allowComments'&gt;
+            &lt;a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;&lt;data:postCommentMsg/&gt;&lt;/a&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+
+      &lt;/p&gt;
+    &lt;/b:if&gt;
+    &lt;b:if cond='data:showCmtPopup'&gt;
+      &lt;div id='comment-popup'&gt;
+        &lt;iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'&gt;
+        &lt;/iframe&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div id='backlinks-container'&gt;
+    &lt;div expr:id='data:widget.instanceId + &amp;quot;_backlinks-container&amp;quot;'&gt;
+       &lt;b:if cond='data:post.showBacklinks'&gt;
+         &lt;b:include data='post' name='backlinks'/&gt;
+       &lt;/b:if&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;/b:widget&gt;
+&lt;/b:section&gt;
+      &lt;/div&gt;
+
+      &lt;div id='sidebar-wrapper'&gt;
+        &lt;b:section class='sidebar' id='sidebar' preferred='yes'&gt;
+&lt;b:widget id='HTML1' locked='false' title='Disqus for Blog' type='HTML'&gt;
+&lt;b:includable id='main'&gt;
+            &lt;script type='text/javascript'&gt;
+                var disqus_shortname = &amp;#39;charleso&amp;#39;;
+                var disqus_blogger_current_url = &amp;#39;&lt;data:blog.url/&gt;&amp;#39;;
+            &lt;/script&gt;
+            &lt;b:if cond='data:blog.pageType == &amp;quot;item&amp;quot;'&gt;                        
+                &lt;style type='text/css'&gt;
+                    #comments {display:none;}
+                &lt;/style&gt;
+                &lt;script type='text/javascript'&gt;
+                    (function() {
+                        var bloggerjs = document.createElement(&amp;#39;script&amp;#39;);
+                        bloggerjs.type = &amp;#39;text/javascript&amp;#39;;
+                        bloggerjs.async = true;
+                        bloggerjs.src = &amp;#39;http://&amp;#39;+disqus_shortname+&amp;#39;.disqus.com/blogger_item.js&amp;#39;;
+                        (document.getElementsByTagName(&amp;#39;head&amp;#39;)[0] || document.getElementsByTagName(&amp;#39;body&amp;#39;)[0]).appendChild(bloggerjs);
+                    })();
+                &lt;/script&gt;
+            &lt;/b:if&gt;
+                &lt;style type='text/css'&gt;
+                    .post-comment-link { visibility: hidden; }
+                &lt;/style&gt;
+                &lt;script type='text/javascript'&gt;
+                (function() {
+                    var bloggerjs = document.createElement(&amp;#39;script&amp;#39;);
+                    bloggerjs.type = &amp;#39;text/javascript&amp;#39;;
+                    bloggerjs.async = true;
+                    bloggerjs.src = &amp;#39;http://&amp;#39;+disqus_shortname+&amp;#39;.disqus.com/blogger_index.js&amp;#39;;
+                    (document.getElementsByTagName(&amp;#39;head&amp;#39;)[0] || document.getElementsByTagName(&amp;#39;body&amp;#39;)[0]).appendChild(bloggerjs);
+                })();
+                &lt;/script&gt;
+        &lt;/b:includable&gt;
+&lt;/b:widget&gt;
+&lt;b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive'&gt;
+&lt;b:includable id='main'&gt;
+  &lt;b:if cond='data:title'&gt;
+    &lt;h2&gt;&lt;data:title/&gt;&lt;/h2&gt;
+  &lt;/b:if&gt;
+  &lt;div class='widget-content'&gt;
+  &lt;div id='ArchiveList'&gt;
+  &lt;div expr:id='data:widget.instanceId + &amp;quot;_ArchiveList&amp;quot;'&gt;
+    &lt;b:if cond='data:style == &amp;quot;HIERARCHY&amp;quot;'&gt;
+     &lt;b:include data='data' name='interval'/&gt;
+    &lt;/b:if&gt;
+    &lt;b:if cond='data:style == &amp;quot;FLAT&amp;quot;'&gt;
+      &lt;b:include data='data' name='flat'/&gt;
+    &lt;/b:if&gt;
+    &lt;b:if cond='data:style == &amp;quot;MENU&amp;quot;'&gt;
+      &lt;b:include data='data' name='menu'/&gt;
+    &lt;/b:if&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;b:include name='quickedit'/&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='flat' var='data'&gt;
+  &lt;ul class='flat'&gt;
+    &lt;b:loop values='data:data' var='i'&gt;
+      &lt;li class='archivedate'&gt;
+        &lt;a expr:href='data:i.url'&gt;&lt;data:i.name/&gt;&lt;/a&gt; (&lt;data:i.post-count/&gt;)
+      &lt;/li&gt;
+    &lt;/b:loop&gt;
+  &lt;/ul&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='menu' var='data'&gt;
+  &lt;select expr:id='data:widget.instanceId + &amp;quot;_ArchiveMenu&amp;quot;'&gt;
+    &lt;option value=''&gt;&lt;data:title/&gt;&lt;/option&gt;
+    &lt;b:loop values='data:data' var='i'&gt;
+      &lt;option expr:value='data:i.url'&gt;&lt;data:i.name/&gt; (&lt;data:i.post-count/&gt;)&lt;/option&gt;
+    &lt;/b:loop&gt;
+  &lt;/select&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='interval' var='intervalData'&gt;
+  &lt;b:loop values='data:intervalData' var='i'&gt;
+      &lt;ul class='hierarchy'&gt;
+        &lt;li expr:class='&amp;quot;archivedate &amp;quot; + data:i.expclass'&gt;
+          &lt;b:include data='i' name='toggle'/&gt;
+          &lt;a class='post-count-link' expr:href='data:i.url'&gt;&lt;data:i.name/&gt;&lt;/a&gt;
+            &lt;span class='post-count' dir='ltr'&gt;(&lt;data:i.post-count/&gt;)&lt;/span&gt;
+          &lt;b:if cond='data:i.data'&gt;
+            &lt;b:include data='i.data' name='interval'/&gt;
+          &lt;/b:if&gt;
+          &lt;b:if cond='data:i.posts'&gt;
+            &lt;b:include data='i.posts' name='posts'/&gt;
+          &lt;/b:if&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;/b:loop&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='toggle' var='interval'&gt;
+  &lt;b:if cond='data:interval.toggleId'&gt;
+  &lt;b:if cond='data:interval.expclass == &amp;quot;expanded&amp;quot;'&gt;
+    &lt;a class='toggle' href='javascript:void(0)'&gt;
+      &lt;span class='zippy toggle-open'&gt;&amp;#9660;&amp;#160;&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;b:else/&gt;
+    &lt;a class='toggle' href='javascript:void(0)'&gt;
+      &lt;span class='zippy'&gt;
+        &lt;b:if cond='data:blog.languageDirection == &amp;quot;rtl&amp;quot;'&gt;
+          &amp;#9668;&amp;#160;
+        &lt;b:else/&gt;
+          &amp;#9658;&amp;#160;
+        &lt;/b:if&gt;
+      &lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/b:if&gt;
+ &lt;/b:if&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='posts' var='posts'&gt;
+  &lt;ul class='posts'&gt;
+    &lt;b:loop values='data:posts' var='i'&gt;
+      &lt;li&gt;&lt;a expr:href='data:i.url'&gt;&lt;data:i.title/&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/b:loop&gt;
+  &lt;/ul&gt;
+&lt;/b:includable&gt;
+&lt;/b:widget&gt;
+&lt;b:widget id='Profile1' locked='false' title='About Me' type='Profile'&gt;
+&lt;b:includable id='main'&gt;
+    &lt;b:if cond='data:title != &amp;quot;&amp;quot;'&gt;
+      &lt;h2&gt;&lt;data:title/&gt;&lt;/h2&gt;
+    &lt;/b:if&gt;
+    &lt;div class='widget-content'&gt;
+    &lt;b:if cond='data:team == &amp;quot;true&amp;quot;'&gt; &lt;!-- team blog profile --&gt;
+      &lt;ul&gt;
+        &lt;b:loop values='data:authors' var='i'&gt;
+          &lt;li&gt;&lt;a expr:href='data:i.userUrl'&gt;&lt;data:i.display-name/&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;/b:loop&gt;
+      &lt;/ul&gt;
+
+      &lt;b:else/&gt; &lt;!-- normal blog profile --&gt;
+
+      &lt;b:if cond='data:photo.url != &amp;quot;&amp;quot;'&gt;
+        &lt;a expr:href='data:userUrl'&gt;&lt;img class='profile-img' expr:alt='data:photo.alt' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/&gt;&lt;/a&gt;
+      &lt;/b:if&gt;
+
+      &lt;dl class='profile-datablock'&gt;
+        &lt;dt class='profile-data'&gt;
+          &lt;a class='profile-name-link' expr:href='data:userUrl' rel='author'&gt;
+            &lt;data:displayname/&gt;
+          &lt;/a&gt;
+        &lt;/dt&gt;
+
+        &lt;b:if cond='data:showlocation == &amp;quot;true&amp;quot;'&gt;
+          &lt;dd class='profile-data'&gt;&lt;data:location/&gt;&lt;/dd&gt;
+        &lt;/b:if&gt;
+
+        &lt;b:if cond='data:aboutme != &amp;quot;&amp;quot;'&gt;&lt;dd class='profile-textblock'&gt;&lt;data:aboutme/&gt;&lt;/dd&gt;&lt;/b:if&gt;
+      &lt;/dl&gt;
+      &lt;a class='profile-link' expr:href='data:userUrl' rel='author'&gt;&lt;data:viewProfileMsg/&gt;&lt;/a&gt;
+    &lt;/b:if&gt;
+
+     &lt;b:include name='quickedit'/&gt;
+    &lt;/div&gt;
+  &lt;/b:includable&gt;
+&lt;/b:widget&gt;
+&lt;/b:section&gt;
+      &lt;/div&gt;
+
+      &lt;!-- spacer for skins that want sidebar and main to be the same height--&gt;
+      &lt;div class='clear'&gt;&amp;#160;&lt;/div&gt;
+
+    &lt;/div&gt; &lt;!-- end content-wrapper --&gt;
+  &lt;/div&gt;&lt;/div&gt; &lt;!-- end outer-wrapper --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/template/default'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/template/default'/><link rel='alternate' type='text/html' href='http://blog.charleso.org/'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_PUBLISHING_MODE</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of publishing done for this blog.</title><content type='text'>PUBLISH_MODE_HOSTED</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_PUBLISHING_MODE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_PUBLISHING_MODE'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_NAME</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The name of the blog</title><content type='text'>Plunkett</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_NAME'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_NAME'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_DESCRIPTION</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>A description of the blog</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_DESCRIPTION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_DESCRIPTION'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_PROMOTED</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog can be promoted on Blogger</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_PROMOTED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_PROMOTED'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_SEARCHABLE</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog should be indexed by search engines</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_SEARCHABLE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_SEARCHABLE'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_ADULT_CONTENT</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog contains adult content</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_ADULT_CONTENT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_ADULT_CONTENT'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_QUICK_EDITING</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether Quick Editing is enabled</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_QUICK_EDITING'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_QUICK_EDITING'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_EMAIL_POST_LINKS</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show a link for users to e-mail posts</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_EMAIL_POST_LINKS'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_EMAIL_POST_LINKS'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_MAX_NUM</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Maximum number of things to show on the main page"</title><content type='text'>7</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_MAX_NUM'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_MAX_NUM'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_MAX_UNIT</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Unit of things to show on the main page</title><content type='text'>POSTS</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_MAX_UNIT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_MAX_UNIT'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_DATE_FORMAT</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The number of the date header format</title><content type='text'>26</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_DATE_FORMAT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_DATE_FORMAT'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_ARCHIVE_DATE_FORMAT</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The number of the archive index date format</title><content type='text'>9</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_ARCHIVE_DATE_FORMAT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_ARCHIVE_DATE_FORMAT'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_TIME_STAMP_FORMAT</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The number of the time stamp format</title><content type='text'>27</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_TIME_STAMP_FORMAT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_TIME_STAMP_FORMAT'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_TIME_ZONE</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The time zone for this blog</title><content type='text'>America/Los_Angeles</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_TIME_ZONE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_TIME_ZONE'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_LOCALE</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Language for this blog</title><content type='text'>en</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_LOCALE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_LOCALE'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_CONVERT_LINE_BREAKS</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to convert line breaks into &lt;br /&gt; tags in post editor</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_CONVERT_LINE_BREAKS'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_CONVERT_LINE_BREAKS'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_SHOW_TITLE</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show the title field</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_SHOW_TITLE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_SHOW_TITLE'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_SHOW_URL</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show a related link box in the post composer</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_SHOW_URL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_SHOW_URL'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_FLOAT_ALIGNMENT</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether float alignment is enabled for the blog</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_FLOAT_ALIGNMENT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_FLOAT_ALIGNMENT'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_POST_TEMPLATE</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The template for blog posts</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_POST_TEMPLATE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_POST_TEMPLATE'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_ALTERNATE_JSRENDER_ALLOWED</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether alternate JS renderings are allowed</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_ALTERNATE_JSRENDER_ALLOWED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_ALTERNATE_JSRENDER_ALLOWED'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_COMMENTS_ALLOWED</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show comments</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENTS_ALLOWED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENTS_ALLOWED'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_COMMENT_ACCESS</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Who can comment</title><content type='text'>ANYONE</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_ACCESS'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_ACCESS'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_DEFAULT_COMMENTS_MODE</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Default comment mode for posts</title><content type='text'>DEFAULT_HAVE_COMMENTS</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_DEFAULT_COMMENTS_MODE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_DEFAULT_COMMENTS_MODE'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_BACKLINKS_ALLOWED</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show comment backlinks on the blog</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_BACKLINKS_ALLOWED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_BACKLINKS_ALLOWED'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_DEFAULT_BACKLINKS_MODE</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Default backlinks mode for posts</title><content type='text'>DEFAULT_HAVE_BACKLINKS</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_DEFAULT_BACKLINKS_MODE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_DEFAULT_BACKLINKS_MODE'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_COMMENTS_TIME_STAMP_FORMAT</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Comment time stamp format number</title><content type='text'>29</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENTS_TIME_STAMP_FORMAT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENTS_TIME_STAMP_FORMAT'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_COMMENT_FORM_LOCATION</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Blog comment form location</title><content type='text'>FULL_PAGE</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_FORM_LOCATION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_FORM_LOCATION'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_COMMENT_MODERATION</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to enable comment moderation</title><content type='text'>DISABLED</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_MODERATION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_MODERATION'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_COMMENT_MODERATION_DELAY</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Number of days after which new comments are subject to moderation</title><content type='text'>14</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_MODERATION_DELAY'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_MODERATION_DELAY'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_COMMENT_CAPTCHA</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to require commenters to complete a Captcha</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_CAPTCHA'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_CAPTCHA'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_COMMENT_PROFILE_IMAGES</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show profile images in comments</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_PROFILE_IMAGES'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_PROFILE_IMAGES'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_COMMENT_EMAIL</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>List of e-mail addresses to send notifications of new comments to</title><content type='text'>charleso@gmail.com</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_EMAIL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_EMAIL'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_COMMENT_MODERATION_EMAIL</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Email address to send notifications of new comments needing moderation to</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_MODERATION_EMAIL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_MODERATION_EMAIL'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_COMMENT_MESSAGE</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Blog comment message</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_MESSAGE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_MESSAGE'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_ARCHIVE_FREQUENCY</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>How frequently this blog should be archived</title><content type='text'>MONTHLY</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_ARCHIVE_FREQUENCY'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_ARCHIVE_FREQUENCY'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_BY_POST_ARCHIVING</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to provide an archive page for each post</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_BY_POST_ARCHIVING'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_BY_POST_ARCHIVING'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_POST_FEED</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of feed to provide for blog posts</title><content type='text'>FULL</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_POST_FEED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_POST_FEED'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_COMMENT_FEED</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of feed to provide for blog comments</title><content type='text'>FULL</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_FEED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_COMMENT_FEED'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_PER_POST_FEED</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of feed to provide for per-post comments</title><content type='text'>FULL</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_PER_POST_FEED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_PER_POST_FEED'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_FEED_REDIRECT_URL</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>URL to redirect post feed requests to</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_FEED_REDIRECT_URL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_FEED_REDIRECT_URL'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_POST_FEED_FOOTER</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Footer to append to the end of each entry in the post feed</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_POST_FEED_FOOTER'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_POST_FEED_FOOTER'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_SEND_EMAIL</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Comma separated list of emails to send new blog posts to</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_SEND_EMAIL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_SEND_EMAIL'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_READ_ACCESS_MODE</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The access type for the readers of the blog.</title><content type='text'>PUBLIC</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_READ_ACCESS_MODE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_READ_ACCESS_MODE'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_READER_PERMISSION</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The list of emails for users who have permission to read the blog.</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_READER_PERMISSION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_READER_PERMISSION'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_AUTHOR_PERMISSION</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The list of authors' emails who have permission to publish.</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_AUTHOR_PERMISSION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_AUTHOR_PERMISSION'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.settings.BLOG_ADMIN_PERMISSION</id><published>2008-08-05T05:13:43.459-07:00</published><updated>2011-05-23T01:39:55.247-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The list of administrators' emails for the blog.</title><content type='text'>charleso@gmail.com</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_ADMIN_PERMISSION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/settings/BLOG_ADMIN_PERMISSION'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.post-2208903247036825884</id><published>2011-05-20T19:41:00.000-07:00</published><updated>2011-05-20T19:41:18.899-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='documentation restructuredtext markup'/><title type='text'>Who needs documentation anyway?</title><content type='html'>So, we have a dilemma at work. How do the developers and documentation teams collaborate on a single set of documentation files while using familiar tools? Is such a thing possible or am I dreaming?&lt;br /&gt;&lt;br /&gt;Currently the documentation team at our work uses &lt;a href="http://www.author-it.com/"&gt;Author-it&lt;/a&gt;, a full-blown authoring 'solution'. For some time we, the developers, were been sent Word documents which we updated and emailed back. At this point the source control fanatic in me started to twitch. It's a document - just like source code - can I see who did what changes? How do two people work on the same document at the same time, and what about conflicts? Can I have multiple version of the same document? The other problem was one of cost; Author-it is too expensive to justify individual licenses for developers.&lt;br /&gt;&lt;br /&gt;We had talked about switching to a more text-based documentation system on-and-off for some time. Finally I cracked and decided to just do it.&lt;br /&gt;&lt;br /&gt;&lt;a href="http://en.wikipedia.org/wiki/LaTeX"&gt;Latex&lt;/a&gt; was the first possibility that surfaced. However, as I thought about it more the idea of everyone having to learn obtuse Latex syntax before writing a single-line of documentation was a little off-putting. Note: I really do like Latex, but I felt like it might have been overly complicated for our situation.&lt;br /&gt;&lt;br /&gt;The second alternative was to use a publication &lt;a href="http://www.dclab.com/dita_docbook.asp"&gt;format&lt;/a&gt; like &lt;a href="http://www.docbook.org/"&gt;Docbook&lt;/a&gt; or &lt;a href="http://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture"&gt;DITA&lt;/a&gt;. While certainly a powerful way to group content, the prospect of living in XML hell didn't enthuse me all that much. I already get enough of that in Java-land thank you very much.&lt;br /&gt;&lt;br /&gt;My final option was to use a lightweight markup langague, like &lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt; or &lt;a href="http://docutils.sourceforge.net/rst.html"&gt;reStructureText&lt;/a&gt; (ReST), which GitHub actively promotes for their README files. This felt like the right fit for us, and without further consultation I converted our current internal word documents to ReST, added them to Git and created a Jenkin job to output &lt;a href="http://code.google.com/p/rst2pdf/"&gt;PDF&lt;/a&gt; and HTML files. Bam!&lt;br /&gt;&lt;br /&gt;At this point us developers were happy again. We were back to using our favourite source control for collaboration, without have to stuff around with emailing Word documents. We could quickly edit text files, use source control to track/merge changes and didn't have to worry any more about niggling presentation issues. My manager, on the other hand, who was away at the time, was &lt;i&gt;not&lt;/i&gt; so pleased. (I swear this had nothing to do with the timing of my rash decision).&lt;br /&gt;&lt;br /&gt;For us developers the idea of using a text editor to edit a document is a fairly comfortable one. For people used to - and who enjoy using - Word this was in some ways a big step backwards. No spell checking, no auto-complete, no drag 'n' drop. All that good stuff. Another complaint he had was about presentation - the PDF output wasn't slick enough to be used officially. Finally, if we wanted to switch to something else, ReST seemed to lack in some of the more powerful &lt;a href="http://docs.oasis-open.org/dita/v1.0/archspec/topicover.html"&gt;concepts&lt;/a&gt; required to support &lt;a href="http://en.wikipedia.org/wiki/Single_source_publishing"&gt;single-source&lt;/a&gt; publishing.&lt;br /&gt;&lt;br /&gt;I could definitely be wrong but it feels like nothing has quite &lt;i&gt;nailed&lt;/i&gt; this space in the space, at least in the OSS community. What would certainly help is a powerful and easy to use  editor. Perhaps a plugin for Open Office would do the trick? Alternatively a browser-based editor, not too unlike &lt;a href="http://rst.ninjs.org/"&gt;this&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;We're currently in a holding pattern at the moment. Developers are still (happily) using ReST, but the 'official' stuff is being written by the documentation team. Us and them.&lt;br /&gt;&lt;br /&gt;I see a couple of available options:&lt;br /&gt;&lt;ol&gt;&lt;li&gt;What am I talking about, emailing Word documents around is fine - stop complaining.&lt;/li&gt;&lt;li&gt;Embrace Author-it and see if it can support more collaborators. Just looking at their website briefly it seems like they have an &lt;a href="http://www.author-it.com/index.php?page=reviewer"&gt;online&lt;/a&gt; review mode.&lt;/li&gt;&lt;li&gt;Meet my boss half-way, he can live without the nice GUI but we switch to a singe-source markup language like DocBook/DITA.&lt;/li&gt;&lt;li&gt;Everyone else be damned; developers rule; reStructuredText it is!&lt;/li&gt;&lt;/ol&gt;I'm curious what other people have done in similar situations.&lt;br /&gt;&lt;ol&gt;&lt;/ol&gt;</content><link rel='replies' type='application/atom+xml' href='http://blog.charleso.org/feeds/2208903247036825884/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=8602458710133943982&amp;postID=2208903247036825884' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/posts/default/2208903247036825884'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/posts/default/2208903247036825884'/><link rel='alternate' type='text/html' href='http://blog.charleso.org/2011/05/who-needs-documentation-anyway.html' title='Who needs documentation anyway?'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>charleso@gmail.com</email></author><thr:total>0</thr:total></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.post-4721781720938082399</id><published>2011-05-14T05:20:00.000-07:00</published><updated>2011-05-14T06:32:31.846-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='java logging logback'/><title type='text'>Java logging and per-user tracing</title><content type='html'>This is a fairly short post about my brief experiences with logging in Java. I realise it's 2011 and logging is very unsexy, but I thought I'd share anyway.&lt;br /&gt;&lt;br /&gt;Let me just say this straight-up - Java Logging you are &lt;i&gt;completely fucking useless&lt;/i&gt;.  It boggles the mind how badly Sun screwed up the implementation of something so simple but yet so fundamental. It's logging for Christ's sake; how hard can it be?!? &lt;a href="http://www.bileblog.org/2003/10/javautillogging-shoddiness/"&gt;This&lt;/a&gt; captures the essence of my feelings, so I'll leave it at that.&lt;br /&gt;&lt;br /&gt;One thing I &lt;i&gt;did&lt;/i&gt; want to mention is &lt;a href="http://logback.qos.ch/"&gt;Logback&lt;/a&gt; and the awesome &lt;a href="http://logback.qos.ch/manual/appenders.html#SiftingAppender"&gt;SiftingAppender&lt;/a&gt;. Logback is the successor to the much loved &lt;a href="http://logging.apache.org/log4j/"&gt;Log4J&lt;/a&gt;, written by the same dude and &lt;a href="http://logback.qos.ch/reasonsToSwitch.html"&gt;addressing&lt;/a&gt; some of the problems with the original. &lt;br /&gt;&lt;br /&gt;My manager wanted a way for our users to enable &lt;i&gt;individual&lt;/i&gt; logging on the server and not require any meddling on the server by an administrator. A quick Google revealed &lt;a href="http://stackoverflow.com/questions/840465/have-you-seen-an-appender-that-would-log-to-separate-files-based-on-ndc-in-log4j/925978#925978"&gt;this&lt;/a&gt; and from there it wasn't hard to implement a start/stop trace button on each page which harnesses &lt;a href="http://www.slf4j.org/api/org/slf4j/MDC.html"&gt;MDC&lt;/a&gt; for per-user logging. On completion the trace can either be downloaded or emailed directly from the server to the system administrator or bug tracker.&lt;br /&gt;&lt;br /&gt;Honestly, if/when I ever work on another online application I will almost certainly re-implement something very similar again. Being able to capture a trace of everything from the server for a single user session has proven to be an invaluable tool for diagnosing bugs. Give it a whirl!</content><link rel='replies' type='application/atom+xml' href='http://blog.charleso.org/feeds/4721781720938082399/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=8602458710133943982&amp;postID=4721781720938082399' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/posts/default/4721781720938082399'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/posts/default/4721781720938082399'/><link rel='alternate' type='text/html' href='http://blog.charleso.org/2011/05/java-logging.html' title='Java logging and per-user tracing'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>charleso@gmail.com</email></author><thr:total>0</thr:total></entry>
+
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.post-5164003762684370166</id><published>2011-05-07T02:37:00.000-07:00</published><updated>2011-05-14T06:33:02.174-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='git clearcase'/><title type='text'>Death of a Clearcase</title><content type='html'>Well it's been &lt;span style="font-style: italic;"&gt;quite&lt;/span&gt; some time since my last post. Time has moved on in many respects, and yet it also feels like very little has changed. Someone at work suggested that I should add a final post to the saga of migrating away from Clearcase at work.&lt;br /&gt;&lt;br /&gt;The good news is: we won!&lt;br /&gt;&lt;br /&gt;That is to say that we now use Git for a majority of projects at work, with the last few being migrated as we speak. Huzzah!&lt;br /&gt;&lt;br /&gt;How did it happen?&lt;br /&gt;&lt;br /&gt;Sadly my persistent nagging made very little difference in the end. Fortunately, however, money did; the cost of continued licensing of Clearcase was not attractive to the bean counters upstairs. Combined with the increasing globalisation of our team meant that Git, or at least a free DVCS, became a very real option (free being the operative word). Mercurial was the first choice, but by those who didn't have any hands-on experience with either; a mistake I have blogged about earlier. Given that my team and I had been using Git in-anger for at least 6 months we fortunately (or unfortunately) managed to convince them to think again.&lt;br /&gt;&lt;br /&gt;We decided to host our source in The Cloud; specifically on GitHub. Now GitHub is an impressive site and I use it for all my open source projects. However, I do have one minor gripe: sadly GitHub has &lt;a href="http://support.github.com/discussions/organization-issues/19-grant-permission-to-add-new-members-only"&gt;not yet&lt;/a&gt; implemented fine-grained security for Organisations. Given that the majority of users are open source and would most likely fork-on-write this makes sense. In our environment where we effectively work on a single repository it would be nicer if we could delegate a project leader or leaders and have them add/remove users for their team. Add the moment only 'Owners' can appear to do that, who can then also  see billing information. The other problem is that with push authorisation you get force-push as well, which can be extremely dangerous in the hands of some. Not an ideal situation to be sure. Before the official migration we used the awesome &lt;a href="https://github.com/sitaramc/gitolite"&gt;gitolite&lt;/a&gt; which handled security beautifully, even down the branch/force push level. I would hope that at some point GitHub will adopt something more like that; but for now things are still 1 millions time better than using you-know-what and we can't complain too much.&lt;br /&gt;&lt;br /&gt;I should add that the obvious rebuttal to this complaint is that we probably need to consider switching to a more distributed/pull-model of collaboration, where everyone has their own repository. I don't disagree with this necessarily, but having a push model gives us high visibility of changes and a quick development cycle. A discussion for another day perhaps.&lt;br /&gt;&lt;br /&gt;And how about the users? Are they happy?&lt;br /&gt;&lt;br /&gt;As much as I love Git, I'm not finding it any easier to teach some of the finer points of Git and DVCS, and people still ask me for help on a daily basis. It does take a while for the difference between checkout and reset to sink-in, which I can emphasise with. Also multiple branches from within one repositories is something that causes confusion to begin with. Finally I am definitely well past getting to the point where I think overriding rebase as a default of pull is more hassle than its worth. Especially when people merge a support branch and then pull again, resulting in both the merge being undone and a duplicate commit being made. It doesn't help that Git does all this without a single warning or message.&lt;br /&gt;&lt;br /&gt;I guess what I've leant is that some developers just want to get their work done in peace. They don't really care about the finer points of source control, and they especially don't care about indexes, rebasing, DAGs or any other such nonsense. Perhaps in this respect Mercurial might have been a better choice? Less sharp edges for people to run into, and I could always run &lt;a href="http://hg-git.github.com/"&gt;hg-git&lt;/a&gt; locally to keep me happy. Who knows at this point. The decision has been made; the ship most definitely sailed. On the upside, I'm fairly sure most, if not all, people are happy about the switch away from Clearcase. The world is a better place for it too.&lt;br /&gt;&lt;br /&gt;My next obsession? Scala!</content><link rel='replies' type='application/atom+xml' href='http://blog.charleso.org/feeds/5164003762684370166/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=8602458710133943982&amp;postID=5164003762684370166' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/posts/default/5164003762684370166'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/posts/default/5164003762684370166'/><link rel='alternate' type='text/html' href='http://blog.charleso.org/2011/05/death-of-clearcase.html' title='Death of a Clearcase'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>charleso@gmail.com</email></author><thr:total>0</thr:total></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.post-4777509445959617473</id><published>2009-08-02T02:42:00.000-07:00</published><updated>2009-08-02T16:31:57.447-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='git mercurial dvcs scm'/><title type='text'>The DVCS Wars</title><content type='html'>What is it about us nerds that dictates every discussion must be a war of some description? It isn't enough that we have two (or more) great technologies at our disposal, we also have to fight about it and of-course we have to be &lt;a href="http://xkcd.com/386/"&gt;right&lt;/a&gt;. For example the age-old conflict between Vi and Emacs seems to continue today, as passionately as ever. And why not? There's nothing like a good ol' fashioned flame war to get the blood pumping.&lt;br /&gt;&lt;br /&gt;This post, in all fairness, should really be called "Why I switched from Mercurial to Git". I actually quite like Mercurial and it was the original DVCS that opened my eyes to a world beyond SVN. Upon first hearing about the exciting  concept of DVCS I knew that I needed to get my hands on one ASAP. But of course it couldn't just be &lt;span style="font-style: italic;"&gt;any&lt;/span&gt; DVCS, it had to be the best one. So I did some more reading, scoured blogs for any material I could find on the topic so I could make the perfect choice. And I did. Only I picked the wrong perfect one...&lt;br /&gt;&lt;br /&gt;Mercurial has so many good things going for it. The command line is clean and simple, and for SVN escapees feels very much like home. It's written in Python, which helps on Windows, and has a nice plugin architecture. In addition it has a good balance of speed and size, not requiring any silly garbage collection. Oh how I used to laugh at those poor Git fools, why couldn't they see the folly of their ways. So what changed? I guess curiosity got the better of me. I read &lt;a href="http://www.rockstarprogrammer.org/post/2008/apr/06/differences-between-mercurial-and-git/"&gt;one&lt;/a&gt; &lt;a href="http://thunk.org/tytso/blog/2007/03/24/git-and-hg/"&gt;too&lt;/a&gt; many pro-Git articles and realised I might just be missing something.&lt;br /&gt;&lt;br /&gt;What makes Git worth switching too then? In short, &lt;a href="http://keithp.com/blogs/Repository_Formats_Matter/"&gt;the repository format&lt;/a&gt;. Everything else, in my opinion, is just porcelain. The defining moment for me was when I learnt about &lt;a href="http://www.gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html"&gt;reflog&lt;/a&gt;. So anything I commit is safely backed-up for 90 days regardless of what I do to the visible history? Count me in!&lt;br /&gt;&lt;br /&gt;The safety net of Git's repository format in this respect is liberating. Commands like rebase are not so much 'modifying history' as modifying your view of history, because you can always retrieve the old version (within 90 days) if you need it again. On the other hand when you modify the history in Mercurial you &lt;span style="font-style: italic;"&gt;really are&lt;/span&gt;&lt;span style="font-style: italic;"&gt; &lt;/span&gt;modifying the history. Whoops you've just stripped that commit from your repository; I hope you made a backup. This is one of those fundamental differences between Git and Mercurial, carefully &lt;a href="http://www.nabble.com/Advocacy-vs.-git-tp23221258p23226084.html"&gt;considered&lt;/a&gt; and implemented by their original designers. It means that in Git you have the trade-off of having to run a gc occasionally to remove those pesky unused objects. I'm cool with that if it means I get my reflog and a rebase that is 100% refundable, no questions asked. I should hastily add that I've never 'lost' a commit and I'm certainly not trying to suggest that Mercurial is unsafe. For me personally it's about that extra layer of comfort and freedom that Git provides.&lt;br /&gt;&lt;br /&gt;After that everything else seemed to just fall into place. I'd never really liked Mercurial's (previous) answer to local branches: &lt;a href="http://mercurial.selenic.com/wiki/MqExtension"&gt;MQ&lt;/a&gt;. Having to learn a whole new set of commands to essentially do the same thing. I kept forgetting which 'q' command did what. Why should I even &lt;span style="font-style: italic;"&gt;have &lt;/span&gt;to remember different commands, why can't I just commit and rebase later? Of course I'm being simplistic here, and MQ is a very powerful tool, but what I really wanted was a way to work as normal and &lt;span style="font-style: italic;"&gt; &lt;/span&gt;decide &lt;a href="http://tomayko.com/writings/the-thing-about-git"&gt;&lt;span&gt;later&lt;/span&gt;&lt;/a&gt; how to sync my changes.&lt;br /&gt;&lt;br /&gt;I find something strangely fascinating about version control, and I don't think I'm the only one either. It seems to be a topic that draws an unusual amount of attention, much to the &lt;a href="http://www.nabble.com/gnome-dvcs-survey-results-tp21297884p21368916.html"&gt;continual&lt;/a&gt; &lt;a href="http://www.nabble.com/Re%3A-how-to-squash-commits-p23049314.html"&gt;annoyance&lt;/a&gt; of their creators I'm sure. Like everything in life, there is no absolute right or wrong in regards to version control, as much as we'd like to argue there is [1]. What is perfect for someone may be hell for another. Many people have happily switched from Git to Mercurial, and while I think they're crazy I think I understand why. My rookie mistake was not playing with all the alternatives in the beginning. Git has turned out to be the ideal tool&lt;span style="font-style: italic;"&gt; &lt;/span&gt;for&lt;span style="font-style: italic;"&gt; me&lt;/span&gt;; it compliments the way I work and think in a way that Mercurial didn't or can't by design.&lt;br /&gt;&lt;br /&gt;[1] Unless of course you prefer Clearcase, in which case you're ugly and stupid. :-P</content><link rel='replies' type='application/atom+xml' href='http://blog.charleso.org/feeds/4777509445959617473/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=8602458710133943982&amp;postID=4777509445959617473' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/posts/default/4777509445959617473'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/posts/default/4777509445959617473'/><link rel='alternate' type='text/html' href='http://blog.charleso.org/2009/08/git-vs-mercurial.html' title='The DVCS Wars'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>charleso@gmail.com</email></author><thr:total>0</thr:total></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.post-6602145663247493229</id><published>2009-07-12T01:57:00.000-07:00</published><updated>2009-07-13T04:05:55.241-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='git clearcase dvcs svn python java linux'/><title type='text'>ClearCase strikes back</title><content type='html'>So it's been almost a year since my last post and I obviously haven't had much to say. I'm back to talk about the exact same thing, again. I really need to find something other than version control to obsess about...&lt;br /&gt;&lt;br /&gt;Recently I made the switch to Ubuntu at work. This left me without ClearCase, as it &lt;a href="http://www-01.ibm.com/support/docview.wss?rs=984&amp;amp;uid=swg21239315"&gt;requires&lt;/a&gt; some derivative of enterprise Redhat or SUSE, which didn't interest me in the slightest. I can only assume this is partially due to the complexities of managing a separate binary kernel module required by MVFS, their virtual filesystem. As an alternative Rational seem to be pushing their &lt;a href="http://www.ibm.com/developerworks/rational/library/05/0809_CCDemo/"&gt;Java implementation&lt;/a&gt; ClearCase Remote Client (CCRC). CCRC is essentially an Eclipse plugin communicating to a server - via a mixture of Web Services and RPC, which in turn has the 'real' client installed. As you would expect this seems to have some performance trade-offs, and it also feels to me quite unstable at the moment, often throwing strange errors unrelated to ClearCase. It's certainly better than nothing though.&lt;br /&gt;&lt;br /&gt;This, of course, raised immediate problems for me as I refuse to go back to using ClearCase directly now that I've tasted the good (and fast) Git life. Because I obviously can't seem to help myself I &lt;a href="http://github.com/charleso/gitcc4j/tree/master"&gt;ported&lt;/a&gt; the gitcc to Java to use their new libraries, although it's &lt;span style="font-style: italic;"&gt;definitely&lt;/span&gt; the last time.&lt;br /&gt;&lt;br /&gt;One good thing to come out of this new version is the cross-platform ability to login as any user, bypassing the domain-specific authentication that is normally used. At least in my situation ClearCase was authenticated via our Windows domain and I could see no quick and safe way to switch between users. This was/is essential for us to preserve the identity of the author of each commit in ClearCase. I strongly suspect there is a way around this, but for the life of me I couldn't think of any. The one alternative that occured to me would have been to run gitcc on something other than Windows configured with NFS and 'sudo su' to each user as required. For reasons I am unable to articulate I wasn't all that happy with the idea and never bothered.&lt;br /&gt;&lt;br /&gt;I've been running a gitcc daemon at work for the past week with great success. It's funny how the speed difference of pushing/pulling affects your work habits. Before I used to watch the checkin and rebase console output, like being glued to TV. Especially because we're using UCM this could take up to a few minutes to do it's rebase/deliver business, which would distract me and I would often 'hold off' on pushing or pulling because I wanted to do it all in one hit to save time. I no longer have that problem, being able to 'fetch' whenever I like, knowing it only takes (literally) a second to complete. Of course in the background the daemon is chugging away, syncing with ClearCase at its own slow-and-steady pace.&lt;br /&gt;&lt;br /&gt;Git seems to be finally taking off at work, after a slow and bumpy start. Personally I'm thrilled to be using Git at work regardless of what anyone else is doing. However some part of me isn't satisfied with just stopping there. It pains me to see others at work using a sub-par tool when I know there is a much better one available. The worst part is that most of them don't even know what they're missing, having never used anything else. Having originally come from SVN I couldn't bear to have to checkout files every time I wanted to make a change and I knew it didn't have to be that way. A co-worker even commented that they 'like' knowing when they're modifying files just in case they accidentally typed something without realising it. That may be true, but I strongly suspect after using Git for a few days they would be unlikely to revert. That's not even taking into consideration the many other benefits of using a DVCS - like local branching.&lt;br /&gt;&lt;br /&gt;What remains is the biggest hurdle: taking it to the 'next level'. A handful of developers are currently using it individually, but now that we have daemon available we can start to look at essentially ditching ClearCase, at least for our team. Part of the problem with working for a 'largish' company is their slow and cautious approach when introducing new technologies. From their perspective they have to consider what happens if I get run over by a bus tomorrow (those damn buses - always threatening to run us over). No one else really has the same intimate knowledge of gitcc and its inner workings. How much time and money would be wasted having to fix it, or revert to ClearCase if I was no longer there? The other issue is one of training and expertise. Now you have the problem of supporting &lt;span style="font-style: italic;"&gt;two&lt;/span&gt; completely different source control systems, including training for, and maintenance of, both.&lt;br /&gt;&lt;br /&gt;The final problem that I face is one of Git's maturity. I love Git. Without a doubt it is the most advanced version control system available today. Sure it's got&lt;span style="font-style: italic;"&gt; more&lt;/span&gt; than its fair share of warts, but I wouldn't use anything else (yes I know about Mercurial, and in any other universe without Git I would be using it quite happily). Unfortunately what it lacks at the moment is all that boring Windows GUI and administration tools that managers and non-technical people need (and I don't just mean TortoiseGit). I'm sure they'll be here soon enough, but in the meantime I would still hesitate if asked 'is Git ready'.  The problem is that the viable alternative, at this very second in time, would most likely be SVN, which isn't a &lt;span style="font-style: italic;"&gt;bad&lt;/span&gt; system, but when compared to any modern DVCS it looks increasingly archaic. If we switched to SVN now I strongly suspect there would be pressure to switch (again) to something more powerful in the not-too-distant future.&lt;br /&gt;&lt;br /&gt;I'd love to use Git at work as our sole version control. Unfortunately as a developer I don't really have the time or patience to play politics and ensure that all aspects of a migration are planned for. However, it seems silly to me that if a majority of your developers start to use an alternative system for any aspect of work then there isn't some reflection on your current one and how you can make your working environment that much more productive. I'm not suggesting for a second that we replace ClearCase tomorrow. Instead I am simply proposing a gradual adoption, or at least trial, of Git over ClearCase. Hell, we're pretty much doing that now anyway, just not officially.&lt;br /&gt;&lt;br /&gt;Finally, the other revelation to come out of this is how truly entrenched in Java I have become. I found with the Python implementation I would often worry about making changes because I would have to spend part of the time investigating how to implement something 'in Python' rather than just being able to focus on the problem at hand. This has nothing to do with Python, it still remains a fantastic language, but perhaps says something about me getting older and less adaptable when learning new things. I hope I never reach that point where I'm too afraid to try something new, although I'm certainly becoming far less likely to (at least seriously) learn a new language in my spare time. I'm just hoping one of these days I get to use Haskell at work. :)</content><link rel='replies' type='application/atom+xml' href='http://blog.charleso.org/feeds/6602145663247493229/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=8602458710133943982&amp;postID=6602145663247493229' title='4 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/posts/default/6602145663247493229'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/posts/default/6602145663247493229'/><link rel='alternate' type='text/html' href='http://blog.charleso.org/2009/07/clearcase-strikes-back.html' title='ClearCase strikes back'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>charleso@gmail.com</email></author><thr:total>4</thr:total></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.post-3531801852003578640</id><published>2008-10-25T19:30:00.000-07:00</published><updated>2008-11-10T13:23:37.746-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='git clearcase python'/><title type='text'>A Clearcase for Git</title><content type='html'>My introduction to Clearcase began about two years again at my now current current job. Coming from SVN it seemed, and still is, so overly complicated and slow. What is this "config spec" you speak of? Anyway, I could write essays devoted to my loathing of Clearcase but this is not what this is about.&lt;br /&gt;&lt;br /&gt;I've been tempted for quite some time to introduce a DVCS, &lt;span style="font-style: italic;"&gt;any&lt;/span&gt; DVCS, into the mix to make my life easier. However, I was concerned it may end up being just as much work as just sticking with Clearcase. I certainly didn't want to have to stuff around with manually deleting and adding files and native moving/renaming was also essential.&lt;br /&gt;&lt;br /&gt;I found some&lt;a href="http://genaud.net/2008/08/clearcase-globally-git-locally/"&gt; helpful scripts&lt;/a&gt;, but nothing that really &lt;span style="font-style: italic;"&gt;just worked&lt;/span&gt;.&lt;br /&gt;&lt;br /&gt;Anyway, I finally got my act together and put together a simple bridge which can push and pull changes into Git. About bloody time!&lt;br /&gt;&lt;br /&gt;&lt;a href="http://github.com/charleso/git-cc/tree/master"&gt;http://github.com/charleso/git-cc/tree/master&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;The README is probably a good place to start for anyone interested.&lt;br /&gt;&lt;br /&gt;&lt;span style="font-weight: bold;"&gt;Please note:&lt;/span&gt; It's still very much a work in progress. However, I'm already using it at work to much joy and relief. Not more pointless checking out on private branches. No more VOB locking or stupid branch renaming for releases. Just sweet, sweet Gitness.&lt;br /&gt;&lt;br /&gt;A few basic examples:&lt;br /&gt;&lt;pre&gt;python gitcc.py init d:\views\your_clearcase_view&lt;br /&gt;python gitcc.py rebase&lt;br /&gt;# Obligatory comment about getting coffee and doing work&lt;br /&gt;python gitcc.py checkin&lt;br /&gt;&lt;/pre&gt;That's about it really. I'm interested to see if anyone else finds this useful or has any suggestions.&lt;br /&gt;&lt;br /&gt;Finally, it was so refreshing to finally work with Python again. I'd forgotten how simple and concise it is to use. I'm so entrenched in Java that, like an addiction, it's too easy to fall back on. That's not to say I'm addicted to Java, nor do I hate it particularly, but it's just so comfortable and I just don't have to think about it anymore. Sad really.</content><link rel='replies' type='application/atom+xml' href='http://blog.charleso.org/feeds/3531801852003578640/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=8602458710133943982&amp;postID=3531801852003578640' title='2 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/posts/default/3531801852003578640'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/posts/default/3531801852003578640'/><link rel='alternate' type='text/html' href='http://blog.charleso.org/2008/10/clearcase-for-git.html' title='A Clearcase for Git'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>charleso@gmail.com</email></author><thr:total>2</thr:total></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.post-99803335097563781</id><published>2008-08-07T01:53:00.000-07:00</published><updated>2008-08-07T06:03:16.471-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='flex'/><category scheme='http://www.blogger.com/atom/ns#' term='automated'/><title type='text'>Flex-o-matic</title><content type='html'>&lt;a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://selenium-ide.openqa.org/selenium-ide.gif"&gt;&lt;img style="margin: 0pt 0pt 10px 10px; float:right; cursor: pointer; width: 197px; height: 257px;" src="http://selenium-ide.openqa.org/selenium-ide.gif" alt="" border="0" /&gt;&lt;/a&gt;A few weeks ago I investigated Flex automated testing to determine it's feasibility for our new Flex project. On Wednesday my boss has asked me to follow through with that original investigation and get it up-and-running on our build loop ASAP.&lt;br /&gt;&lt;br /&gt;The tools I originally looked at:&lt;br /&gt;&lt;ol&gt;&lt;li&gt;&lt;a href="http://en.wikipedia.org/wiki/HP_QuickTest_Professional"&gt;HP QuickTest Professional&lt;/a&gt; or QTP. This is the big daddy of Flex automation testing, and costs an arm and a leg. The funny thing is I couldn't seem to get this working last time. That and it looks like an old Windows 95 app (superficial I know).&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://riatest.com/"&gt;RIATest&lt;/a&gt;. In many ways this is the nicest of the tools. Quick, simple and it just works (TM). However it's in very early stages, has its own IDE/language and only works on Windows.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://www-306.ibm.com/software/awdtools/tester/functional/"&gt;Rational Functional Tester&lt;/a&gt; or RFT, a set of Rational plugins for Eclipse. The business preferred option as we use this for other products as well.&lt;br /&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://www.adobe.com/devnet/flex/samples/custom_automated/"&gt;Custom Automated Agents&lt;/a&gt;, the adobe sample for automation testing. It's worth noting that all the above products are essentially just rebadged versions of this. This has the most power of all these tools, but is very bare bones and quite complicated to understand.&lt;br /&gt;&lt;/li&gt;&lt;/ol&gt;Originally I had decided on RFT a few weeks ago and wrote some basic tests. However, today I spent some more time with it and ran into a few snags.&lt;br /&gt;&lt;br /&gt;Firstly our toolbar is a Flex MenuBar, which (for some &lt;span style="font-style: italic;"&gt;stupid&lt;/span&gt; reason) doesn't handle ItemClick events for root items. Without this you can't perform the simplest of actions like searching. To get this working we would &lt;span style="font-style: italic;"&gt;have&lt;/span&gt; to use something else. Strike one.&lt;br /&gt;&lt;br /&gt;Secondly the Grid data verification points were now returning blanks in every cell. After some snooping it turns out setting a custom itemRenderer for columns (ie combobox or checkbox) causes this to happen. Sadly we need to do this and I couldn't seem to fix the problem. Strike two.&lt;br /&gt;&lt;br /&gt;While none of these are show stoppers it made me realise I really didn't like using RFT, it felt flaky, so I thought I'd better re-examine my options.&lt;br /&gt;&lt;br /&gt;The other, as of yet unexplored option, was &lt;a href="http://selenium.openqa.org/"&gt;Selenium&lt;/a&gt;. Just the other day (literally) the&lt;a href="http://sourceforge.net/projects/seleniumflexapi/"&gt; new flex API&lt;/a&gt; was released. Behind the scenes this is simply an exposed API via the Flex &lt;a href="http://livedocs.adobe.com/flex/3/langref/flash/external/ExternalInterface.html"&gt;ExternalInterface&lt;/a&gt; (basically a Flex/Javascript bridge). As I was looking at this I realised we could just expose our own custom API to compliment Selenium's.&lt;br /&gt;&lt;br /&gt;For some reason this latest option appeals to me as it potentially grants the most power and least amount of headaches. Using the above tools feels like we're getting locked into a specific way of using Flex. When something doesn't work, like it did today, there isn't much we can do except change &lt;span style="font-style: italic;"&gt;our&lt;/span&gt; application to fit the required mold. Instead it would be nice if the automated tools were as &lt;span style="font-style: italic;"&gt;flex&lt;/span&gt;ible as we need them to be.&lt;br /&gt;&lt;br /&gt;What we loose is the recording capability, which I don't think is a huge loss (but sad). Some of our other functional tests at work are also written by hand. It will also require some more initial tweaking while we flesh out our own internal API. My other concern is that it's not &lt;span style="font-style: italic;"&gt;exactly&lt;/span&gt; the same as users interacting with the app, but then again neither are the above tools.&lt;br /&gt;&lt;br /&gt;I'm still not sure at this stage which option I'm going to settle on. Time is of the essence, and I really need to have something to show by next week. I'm hoping with some more testing tomorrow, Selenium will be just what the doctor ordered.</content><link rel='replies' type='application/atom+xml' href='http://blog.charleso.org/feeds/99803335097563781/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=8602458710133943982&amp;postID=99803335097563781' title='2 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/posts/default/99803335097563781'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/posts/default/99803335097563781'/><link rel='alternate' type='text/html' href='http://blog.charleso.org/2008/08/flex-o-matic.html' title='Flex-o-matic'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>charleso@gmail.com</email></author><thr:total>2</thr:total></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.post-2262685599804448780</id><published>2008-08-07T00:53:00.000-07:00</published><updated>2008-08-07T05:55:38.298-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='wordpress'/><category scheme='http://www.blogger.com/atom/ns#' term='blogger'/><title type='text'>Blogger vs WordPress</title><content type='html'>I used to write a private WordPress blog and I was contemplating mapping it to my shiny new domain to kick it off.&lt;br /&gt;&lt;br /&gt;However the following comparison clearly shows why I switched to Blogger instead:&lt;br /&gt;&lt;br /&gt;Wordpress - &lt;a href="http://en.blog.wordpress.com/2006/10/24/domain-mapping-registration/"&gt;$10/year&lt;/a&gt;&lt;br /&gt;Blogger - Free&lt;br /&gt;&lt;br /&gt;It's that simple. Yes, I'm cheap.</content><link rel='replies' type='application/atom+xml' href='http://blog.charleso.org/feeds/2262685599804448780/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='https://www.blogger.com/comment.g?blogID=8602458710133943982&amp;postID=2262685599804448780' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/posts/default/2262685599804448780'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/posts/default/2262685599804448780'/><link rel='alternate' type='text/html' href='http://blog.charleso.org/2008/08/blogger-vs-wordpress.html' title='Blogger vs WordPress'/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>charleso@gmail.com</email></author><thr:total>0</thr:total></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.post-4132753936917265843</id><published>2010-05-25T11:54:59.091-07:00</published><updated>2010-05-25T11:54:59.091-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>i need to try this as well.  i absolutely hate cle...</title><content type='html'>i need to try this as well.  i absolutely hate clearcase.</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/6602145663247493229/comments/default/4132753936917265843'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/6602145663247493229/comments/default/4132753936917265843'/><link rel='alternate' type='text/html' href='http://blog.charleso.org/2009/07/clearcase-strikes-back.html?showComment=1274813699091#c4132753936917265843' title=''/><author><name>jeremiah</name><uri>http://www.blogger.com/profile/08672873279339006520</uri><email>noreply@blogger.com</email></author><thr:in-reply-to href='http://blog.charleso.org/2009/07/clearcase-strikes-back.html' ref='tag:blogger.com,1999:blog-8602458710133943982.post-6602145663247493229' source='http://www.blogger.com/feeds/8602458710133943982/posts/default/6602145663247493229' type='text/html'/></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.post-2501241805874473469</id><published>2009-12-13T06:20:35.609-08:00</published><updated>2009-12-13T06:20:35.609-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>CC -&amp;gt; x -&amp;gt; git meant the Clearcase VOB to be...</title><content type='html'>CC -&amp;gt; x -&amp;gt; git meant the Clearcase VOB to be converted to product x, where x in (svn, cvs, ...); and then I would convert that repository to git.&lt;br /&gt;&lt;br /&gt;I had mentioned this, as I had not hear of gitcc! I&amp;#39;ll have a look into that.</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/6602145663247493229/comments/default/2501241805874473469'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/6602145663247493229/comments/default/2501241805874473469'/><link rel='alternate' type='text/html' href='http://blog.charleso.org/2009/07/clearcase-strikes-back.html?showComment=1260714035609#c2501241805874473469' title=''/><author><name>Lantrix</name><uri>http://www.blogger.com/profile/17753289441270011598</uri><email>noreply@blogger.com</email></author><thr:in-reply-to href='http://blog.charleso.org/2009/07/clearcase-strikes-back.html' ref='tag:blogger.com,1999:blog-8602458710133943982.post-6602145663247493229' source='http://www.blogger.com/feeds/8602458710133943982/posts/default/6602145663247493229' type='text/html'/></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.post-6734354927730392186</id><published>2009-12-02T02:21:33.513-08:00</published><updated>2009-12-02T02:21:33.513-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>Hi Lantrix,
+
+Thanks for the comment. I didn&amp;#39;t ...</title><content type='html'>Hi Lantrix,&lt;br /&gt;&lt;br /&gt;Thanks for the comment. I didn&amp;#39;t think anyone actually read my blog, so it&amp;#39;s nice to hear some feedback on the issue.&lt;br /&gt;&lt;br /&gt;I&amp;#39;m curious what you mean about &amp;quot;convert a non-UCM VOB into a Clearcase repo&amp;quot;, and then talk about CC -&amp;gt; x. Have you tried Gitcc to convert from Clearcase to Git? It imports (as much as it can) from the Clearcase history into Git (and back again if required).&lt;br /&gt;&lt;br /&gt;The only other decent Clearcase export alternative that I&amp;#39;m aware of is &lt;a href="http://www.polarion.com/products/svn/svn_importer.php" rel="nofollow"&gt;SVN Importer&lt;/a&gt; from Polarion.&lt;br /&gt;&lt;br /&gt;I haven&amp;#39;t looked at it in a long while, but I believe they invoke &amp;#39;cleartool lshistory&amp;#39; in the same fashion that Gitcc does, so the history it produces is likely to be very similiar.&lt;br /&gt;&lt;br /&gt;The quick and dirty alternative is to just take a snapshot of the code base and import it into SVN/Git/whatever, but as a developer I personally wouldn&amp;#39;t accept that.&lt;br /&gt;&lt;br /&gt;Unfortunately as is common in these scenarios, the issues tend not to be purely technical in nature. At my work we&amp;#39;ve talked about the costs of migrating our entire codebase to an alternative SCM vs the cost of continuing to pay license fees. These costs include the salaries of people required to plan and execute the migration; the loss of work for developers caused by unforeseen problems; training and documentation etc. Personally I&amp;#39;d love nothing more than to be free of Clearcase forever, but I don&amp;#39;t disagree that migration on a large scale would probably be just as expensive as paying the damn license fees, at least in the short term. My current opinion, as hinted at briefly above, would be to migrate projects individually, but of course you still have to pay fees during that extended period.&lt;br /&gt;&lt;br /&gt;Good luck in any case.:)&lt;br /&gt;&lt;br /&gt;Charles</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/6602145663247493229/comments/default/6734354927730392186'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/6602145663247493229/comments/default/6734354927730392186'/><link rel='alternate' type='text/html' href='http://blog.charleso.org/2009/07/clearcase-strikes-back.html?showComment=1259749293513#c6734354927730392186' title=''/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author><thr:in-reply-to href='http://blog.charleso.org/2009/07/clearcase-strikes-back.html' ref='tag:blogger.com,1999:blog-8602458710133943982.post-6602145663247493229' source='http://www.blogger.com/feeds/8602458710133943982/posts/default/6602145663247493229' type='text/html'/></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.post-8856625070886357795</id><published>2009-12-01T21:41:08.254-08:00</published><updated>2009-12-01T21:41:08.254-08:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>I&amp;#39;m there now. Using Clearcase, and trying to ...</title><content type='html'>I&amp;#39;m there now. Using Clearcase, and trying to stop work putting more wasted money into this bloated product. When I took over the administration (yes I&amp;#39;m a sysadmin, not a full time dev) of Clearcase 2 years ago, I had come from a CVS world. It took me so long to figure it out.&lt;br /&gt;&lt;br /&gt;The previous administrator was adding versions of files to the VOB as a new element each time! He didn&amp;#39;t even have a clue about what an SCM is.&lt;br /&gt;&lt;br /&gt;So I took over Clearcase, built up a new VOB and imported all the existing source. Since then we have been through two vendor baselines, and a number of production releases - all successful.&lt;br /&gt;&lt;br /&gt;Two years on I&amp;#39;m our project Config Mgr. I do all the merging and imports of vendor code, rebasing, etc. It&amp;#39;s complex, time consuming and idiosynchratic; and it&amp;#39;s all about having the right config spec :-)&lt;br /&gt;&lt;br /&gt;I&amp;#39;ve started using git by porting all my personal SVN and CVS projects to it, and now I&amp;#39;m trying to convince the powers that be that we should move to it for work as well.&lt;br /&gt;&lt;br /&gt;Hell, we are still using Clearcase 2003.06.00 - which is End of life, and the money men are trying to pay for another years maintenance on it. Duh.&lt;br /&gt;&lt;br /&gt;It&amp;#39;s hard to convince them to drop Rational when we use it as a whole platform for other stuff, and I can&amp;#39;t find any tools out there to convert a non-UCM VOB into a Clearcase repo. Maybe I&amp;#39;ll have to go CC -&amp;gt; x -&amp;gt; git ; where x = svn or some such - wish me luck.</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/6602145663247493229/comments/default/8856625070886357795'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/6602145663247493229/comments/default/8856625070886357795'/><link rel='alternate' type='text/html' href='http://blog.charleso.org/2009/07/clearcase-strikes-back.html?showComment=1259732468254#c8856625070886357795' title=''/><author><name>Lantrix</name><uri>http://www.blogger.com/profile/17753289441270011598</uri><email>noreply@blogger.com</email></author><thr:in-reply-to href='http://blog.charleso.org/2009/07/clearcase-strikes-back.html' ref='tag:blogger.com,1999:blog-8602458710133943982.post-6602145663247493229' source='http://www.blogger.com/feeds/8602458710133943982/posts/default/6602145663247493229' type='text/html'/></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.post-8611278863030087937</id><published>2010-04-02T00:27:06.545-07:00</published><updated>2010-04-02T00:27:06.545-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>Hi lbrigman124.
+
+Any clues as to what error you&amp;#3...</title><content type='html'>Hi lbrigman124.&lt;br /&gt;&lt;br /&gt;Any clues as to what error you&amp;#39;re seeing? Do you mean cloning from Github, or an error once you&amp;#39;re running git-cc?&lt;br /&gt;&lt;br /&gt;Charles</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/3531801852003578640/comments/default/8611278863030087937'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/3531801852003578640/comments/default/8611278863030087937'/><link rel='alternate' type='text/html' href='http://blog.charleso.org/2008/10/clearcase-for-git.html?showComment=1270193226545#c8611278863030087937' title=''/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author><thr:in-reply-to href='http://blog.charleso.org/2008/10/clearcase-for-git.html' ref='tag:blogger.com,1999:blog-8602458710133943982.post-3531801852003578640' source='http://www.blogger.com/feeds/8602458710133943982/posts/default/3531801852003578640' type='text/html'/></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.post-3412554009345865080</id><published>2010-04-01T21:56:08.814-07:00</published><updated>2010-04-01T21:56:08.814-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>I am getting an error from your repo.
+So I cannot ...</title><content type='html'>I am getting an error from your repo.&lt;br /&gt;So I cannot find out if there is some benefit to your code.</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/3531801852003578640/comments/default/3412554009345865080'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/3531801852003578640/comments/default/3412554009345865080'/><link rel='alternate' type='text/html' href='http://blog.charleso.org/2008/10/clearcase-for-git.html?showComment=1270184168814#c3412554009345865080' title=''/><author><name>lbrigman124</name><uri>http://www.blogger.com/profile/09820166082567769256</uri><email>noreply@blogger.com</email></author><thr:in-reply-to href='http://blog.charleso.org/2008/10/clearcase-for-git.html' ref='tag:blogger.com,1999:blog-8602458710133943982.post-3531801852003578640' source='http://www.blogger.com/feeds/8602458710133943982/posts/default/3531801852003578640' type='text/html'/></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.post-4709575836325056661</id><published>2008-10-25T19:35:00.000-07:00</published><updated>2008-10-25T19:35:31.634-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>Hi Rebecca. Sorry for the (extremely) late reply. ...</title><content type='html'>Hi Rebecca. Sorry for the (extremely) late reply. &lt;BR/&gt;&lt;BR/&gt;I assumed&lt;BR/&gt;a) no one would read my blob and &lt;BR/&gt;b) it would email me when someone made a comment&lt;BR/&gt;&lt;BR/&gt;While I'm sure it's too late, the answer to the question is that Selenium has worked an absolute treat!&lt;BR/&gt;&lt;BR/&gt;I should point out though that we have completely gutted the FlexAPI they provide and implemented our own, largely because of the way we have implemented our application this gives us much more flexibility. Selenium itself is purely a means to launch a browser and fire commands at it. In this case the simpler the better.&lt;BR/&gt;&lt;BR/&gt;I'm curious to see how you went with your testing.</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/99803335097563781/comments/default/4709575836325056661'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/99803335097563781/comments/default/4709575836325056661'/><link rel='alternate' type='text/html' href='http://blog.charleso.org/2008/08/flex-o-matic.html?showComment=1224988500000#c4709575836325056661' title=''/><author><name>Charles O'Farrell</name><uri>http://www.blogger.com/profile/03209801244973696458</uri><email>noreply@blogger.com</email></author><thr:in-reply-to href='http://blog.charleso.org/2008/08/flex-o-matic.html' ref='tag:blogger.com,1999:blog-8602458710133943982.post-99803335097563781' source='http://www.blogger.com/feeds/8602458710133943982/posts/default/99803335097563781' type='text/html'/></entry>
+<entry><id>tag:blogger.com,1999:blog-8602458710133943982.post-4797906105246626122</id><published>2008-08-21T11:26:00.000-07:00</published><updated>2008-08-21T11:26:00.286-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>Did you every figure out which worked best for you...</title><content type='html'>Did you every figure out which worked best for you?&lt;BR/&gt;&lt;BR/&gt;I've tried funfx, RiaTest, Silktest, and now I've started on Selenium Flex.  Each had their ups and downs and I'm still searching.  I'd be pleased to hear what your opinion is on Selenium.</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/99803335097563781/comments/default/4797906105246626122'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/8602458710133943982/99803335097563781/comments/default/4797906105246626122'/><link rel='alternate' type='text/html' href='http://blog.charleso.org/2008/08/flex-o-matic.html?showComment=1219343160000#c4797906105246626122' title=''/><author><name>scifi-review</name><uri>http://www.blogger.com/profile/01833123131815830243</uri><email>noreply@blogger.com</email></author><thr:in-reply-to href='http://blog.charleso.org/2008/08/flex-o-matic.html' ref='tag:blogger.com,1999:blog-8602458710133943982.post-99803335097563781' source='http://www.blogger.com/feeds/8602458710133943982/posts/default/99803335097563781' type='text/html'/></entry></feed>
