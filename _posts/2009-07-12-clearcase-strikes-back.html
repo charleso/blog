@@ -9,22 +9,111 @@ title: ClearCase strikes back
 updated: 2009/07/13 04:05:55
 
 ---
-So it's been almost a year since my last post and I obviously haven't had much to say. I'm back to talk about the exact same thing, again. I really need to find something other than version control to obsess about...
+So it's been almost a year since my last post and I obviously haven't had much
+to say. I'm back to talk about the exact same thing, again. I really need to
+find something other than version control to obsess about...
 <br /><br />
-Recently I made the switch to Ubuntu at work. This left me without ClearCase, as it <a href="http://www-01.ibm.com/support/docview.wss?rs=984&uid=swg21239315">requires</a> some derivative of enterprise Redhat or SUSE, which didn't interest me in the slightest. I can only assume this is partially due to the complexities of managing a separate binary kernel module required by MVFS, their virtual filesystem. As an alternative Rational seem to be pushing their <a href="http://www.ibm.com/developerworks/rational/library/05/0809_CCDemo/">Java implementation</a> ClearCase Remote Client (CCRC). CCRC is essentially an Eclipse plugin communicating to a server - via a mixture of Web Services and RPC, which in turn has the 'real' client installed. As you would expect this seems to have some performance trade-offs, and it also feels to me quite unstable at the moment, often throwing strange errors unrelated to ClearCase. It's certainly better than nothing though.
+Recently I made the switch to Ubuntu at work. This left me without ClearCase,
+as it <a href="http://www-01.ibm.com/support/docview.wss?rs=984&uid=swg21239315">requires</a>
+some derivative of enterprise Redhat or SUSE, which didn't interest me in the
+slightest. I can only assume this is partially due to the complexities of
+managing a separate binary kernel module required by MVFS, their virtual
+filesystem. As an alternative Rational seem to be pushing their 
+<a href="http://www.ibm.com/developerworks/rational/library/05/0809_CCDemo/">Java implementation</a> 
+ClearCase Remote Client (CCRC). CCRC is essentially an Eclipse plugin
+communicating to a server - via a mixture of Web Services and RPC, which in
+turn has the 'real' client installed. As you would expect this seems to have
+some performance trade-offs, and it also feels to me quite unstable at the
+moment, often throwing strange errors unrelated to ClearCase.
+It's certainly better than nothing though.
 <br /><br />
-This, of course, raised immediate problems for me as I refuse to go back to using ClearCase directly now that I've tasted the good (and fast) Git life. Because I obviously can't seem to help myself I <a href="http://github.com/charleso/gitcc4j/tree/master">ported</a> the gitcc to Java to use their new libraries, although it's <span>definitely</span> the last time.
+This, of course, raised immediate problems for me as I refuse to go back to
+using ClearCase directly now that I've tasted the good (and fast) Git life.
+Because I obviously can't seem to help myself I 
+<a href="http://github.com/charleso/gitcc4j/tree/master">ported</a> the gitcc to
+Java to use their new libraries, although it's <span>definitely</span> the last
+time.
 <br /><br />
-One good thing to come out of this new version is the cross-platform ability to login as any user, bypassing the domain-specific authentication that is normally used. At least in my situation ClearCase was authenticated via our Windows domain and I could see no quick and safe way to switch between users. This was/is essential for us to preserve the identity of the author of each commit in ClearCase. I strongly suspect there is a way around this, but for the life of me I couldn't think of any. The one alternative that occured to me would have been to run gitcc on something other than Windows configured with NFS and 'sudo su' to each user as required. For reasons I am unable to articulate I wasn't all that happy with the idea and never bothered.
+One good thing to come out of this new version is the cross-platform ability to
+login as any user, bypassing the domain-specific authentication that is
+normally used. At least in my situation ClearCase was authenticated via our
+Windows domain and I could see no quick and safe way to switch between users.
+This was/is essential for us to preserve the identity of the author of each
+commit in ClearCase. I strongly suspect there is a way around this, but for the
+life of me I couldn't think of any. The one alternative that occured to me
+would have been to run gitcc on something other than Windows configured with
+NFS and 'sudo su' to each user as required. For reasons I am unable to
+articulate I wasn't all that happy with the idea and never bothered.
 <br /><br />
-I've been running a gitcc daemon at work for the past week with great success. It's funny how the speed difference of pushing/pulling affects your work habits. Before I used to watch the checkin and rebase console output, like being glued to TV. Especially because we're using UCM this could take up to a few minutes to do it's rebase/deliver business, which would distract me and I would often 'hold off' on pushing or pulling because I wanted to do it all in one hit to save time. I no longer have that problem, being able to 'fetch' whenever I like, knowing it only takes (literally) a second to complete. Of course in the background the daemon is chugging away, syncing with ClearCase at its own slow-and-steady pace.
+I've been running a gitcc daemon at work for the past week with great success.
+It's funny how the speed difference of pushing/pulling affects your work
+habits. Before I used to watch the checkin and rebase console output, like
+being glued to TV. Especially because we're using UCM this could take up to a
+few minutes to do it's rebase/deliver business, which would distract me and I
+would often 'hold off' on pushing or pulling because I wanted to do it all in
+one hit to save time. I no longer have that problem, being able to 'fetch'
+whenever I like, knowing it only takes (literally) a second to complete. Of
+course in the background the daemon is chugging away, syncing with ClearCase at
+its own slow-and-steady pace.
 <br /><br />
-Git seems to be finally taking off at work, after a slow and bumpy start. Personally I'm thrilled to be using Git at work regardless of what anyone else is doing. However some part of me isn't satisfied with just stopping there. It pains me to see others at work using a sub-par tool when I know there is a much better one available. The worst part is that most of them don't even know what they're missing, having never used anything else. Having originally come from SVN I couldn't bear to have to checkout files every time I wanted to make a change and I knew it didn't have to be that way. A co-worker even commented that they 'like' knowing when they're modifying files just in case they accidentally typed something without realising it. That may be true, but I strongly suspect after using Git for a few days they would be unlikely to revert. That's not even taking into consideration the many other benefits of using a DVCS - like local branching.
+Git seems to be finally taking off at work, after a slow and bumpy start.
+Personally I'm thrilled to be using Git at work regardless of what anyone else
+is doing. However some part of me isn't satisfied with just stopping there. It
+pains me to see others at work using a sub-par tool when I know there is a much
+better one available. The worst part is that most of them don't even know what
+they're missing, having never used anything else. Having originally come from
+SVN I couldn't bear to have to checkout files every time I wanted to make a
+change and I knew it didn't have to be that way. A co-worker even commented
+that they 'like' knowing when they're modifying files just in case they
+accidentally typed something without realising it. That may be true, but I
+strongly suspect after using Git for a few days they would be unlikely to
+revert. That's not even taking into consideration the many other benefits of
+using a DVCS - like local branching.
 <br /><br />
-What remains is the biggest hurdle: taking it to the 'next level'. A handful of developers are currently using it individually, but now that we have daemon available we can start to look at essentially ditching ClearCase, at least for our team. Part of the problem with working for a 'largish' company is their slow and cautious approach when introducing new technologies. From their perspective they have to consider what happens if I get run over by a bus tomorrow (those damn buses - always threatening to run us over). No one else really has the same intimate knowledge of gitcc and its inner workings. How much time and money would be wasted having to fix it, or revert to ClearCase if I was no longer there? The other issue is one of training and expertise. Now you have the problem of supporting <span>two</span> completely different source control systems, including training for, and maintenance of, both.
+What remains is the biggest hurdle: taking it to the 'next level'. A handful of
+developers are currently using it individually, but now that we have daemon
+available we can start to look at essentially ditching ClearCase, at least for
+our team. Part of the problem with working for a 'largish' company is their
+slow and cautious approach when introducing new technologies. From their
+perspective they have to consider what happens if I get run over by a bus
+tomorrow (those damn buses - always threatening to run us over). No one else
+really has the same intimate knowledge of gitcc and its inner workings. How
+much time and money would be wasted having to fix it, or revert to ClearCase if
+I was no longer there? The other issue is one of training and expertise. Now
+you have the problem of supporting <span>two</span> completely different source
+control systems, including training for, and maintenance of, both.
 <br /><br />
-The final problem that I face is one of Git's maturity. I love Git. Without a doubt it is the most advanced version control system available today. Sure it's got<span> more</span> than its fair share of warts, but I wouldn't use anything else (yes I know about Mercurial, and in any other universe without Git I would be using it quite happily). Unfortunately what it lacks at the moment is all that boring Windows GUI and administration tools that managers and non-technical people need (and I don't just mean TortoiseGit). I'm sure they'll be here soon enough, but in the meantime I would still hesitate if asked 'is Git ready'.  The problem is that the viable alternative, at this very second in time, would most likely be SVN, which isn't a <span>bad</span> system, but when compared to any modern DVCS it looks increasingly archaic. If we switched to SVN now I strongly suspect there would be pressure to switch (again) to something more powerful in the not-too-distant future.
+The final problem that I face is one of Git's maturity. I love Git. Without a
+doubt it is the most advanced version control system available today. Sure it's
+got<span> more</span> than its fair share of warts, but I wouldn't use anything
+else (yes I know about Mercurial, and in any other universe without Git I would
+be using it quite happily). Unfortunately what it lacks at the moment is all
+that boring Windows GUI and administration tools that managers and
+non-technical people need (and I don't just mean TortoiseGit). I'm sure they'll
+be here soon enough, but in the meantime I would still hesitate if asked 'is
+Git ready'.  The problem is that the viable alternative, at this very second in
+time, would most likely be SVN, which isn't a <span>bad</span> system, but when
+compared to any modern DVCS it looks increasingly archaic. If we switched to
+SVN now I strongly suspect there would be pressure to switch (again) to
+something more powerful in the not-too-distant future.
 <br /><br />
-I'd love to use Git at work as our sole version control. Unfortunately as a developer I don't really have the time or patience to play politics and ensure that all aspects of a migration are planned for. However, it seems silly to me that if a majority of your developers start to use an alternative system for any aspect of work then there isn't some reflection on your current one and how you can make your working environment that much more productive. I'm not suggesting for a second that we replace ClearCase tomorrow. Instead I am simply proposing a gradual adoption, or at least trial, of Git over ClearCase. Hell, we're pretty much doing that now anyway, just not officially.
+I'd love to use Git at work as our sole version control. Unfortunately as a
+developer I don't really have the time or patience to play politics and ensure
+that all aspects of a migration are planned for. However, it seems silly to me
+that if a majority of your developers start to use an alternative system for
+any aspect of work then there isn't some reflection on your current one and how
+you can make your working environment that much more productive. I'm not
+suggesting for a second that we replace ClearCase tomorrow. Instead I am simply
+proposing a gradual adoption, or at least trial, of Git over ClearCase. Hell,
+we're pretty much doing that now anyway, just not officially.
 <br /><br />
-Finally, the other revelation to come out of this is how truly entrenched in Java I have become. I found with the Python implementation I would often worry about making changes because I would have to spend part of the time investigating how to implement something 'in Python' rather than just being able to focus on the problem at hand. This has nothing to do with Python, it still remains a fantastic language, but perhaps says something about me getting older and less adaptable when learning new things. I hope I never reach that point where I'm too afraid to try something new, although I'm certainly becoming far less likely to (at least seriously) learn a new language in my spare time. I'm just hoping one of these days I get to use Haskell at work. :)
+Finally, the other revelation to come out of this is how truly entrenched in
+Java I have become. I found with the Python implementation I would often worry
+about making changes because I would have to spend part of the time
+investigating how to implement something 'in Python' rather than just being
+able to focus on the problem at hand. This has nothing to do with Python, it
+still remains a fantastic language, but perhaps says something about me getting
+older and less adaptable when learning new things. I hope I never reach that
+point where I'm too afraid to try something new, although I'm certainly
+becoming far less likely to (at least seriously) learn a new language in my
+spare time. I'm just hoping one of these days I get to use Haskell at work. :)

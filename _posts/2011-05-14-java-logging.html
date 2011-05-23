@@ -9,12 +9,35 @@ title: Java logging and per-user tracing
 updated: 2011/05/14 06:32:31
 
 ---
-This is a fairly short post about my brief experiences with logging in Java. I realise it's 2011 and logging is very unsexy, but I thought I'd share anyway.
+This is a fairly short post about my brief experiences with logging in Java. I
+realise it's 2011 and logging is very unsexy, but I thought I'd share anyway.
 <br /><br />
-Let me just say this straight-up - Java Logging you are <i>completely fucking useless</i>.  It boggles the mind how badly Sun screwed up the implementation of something so simple but yet so fundamental. It's logging for Christ's sake; how hard can it be?!? <a href="http://www.bileblog.org/2003/10/javautillogging-shoddiness/">This</a> captures the essence of my feelings, so I'll leave it at that.
+Let me just say this straight-up - Java Logging you are <i>completely fucking
+useless</i>.  It boggles the mind how badly Sun screwed up the implementation
+of something so simple but yet so fundamental. It's logging for Christ's sake;
+how hard can it be?!? 
+<a href="http://www.bileblog.org/2003/10/javautillogging-shoddiness/">This</a>
+captures the essence of my feelings, so I'll leave it at that.
 <br /><br />
-One thing I <i>did</i> want to mention is <a href="http://logback.qos.ch/">Logback</a> and the awesome <a href="http://logback.qos.ch/manual/appenders.html#SiftingAppender">SiftingAppender</a>. Logback is the successor to the much loved <a href="http://logging.apache.org/log4j/">Log4J</a>, written by the same dude and <a href="http://logback.qos.ch/reasonsToSwitch.html">addressing</a> some of the problems with the original. 
+One thing I <i>did</i> want to mention is
+<a href="http://logback.qos.ch/">Logback</a> and the awesome
+<a href="http://logback.qos.ch/manual/appenders.html#SiftingAppender">SiftingAppender</a>.
+Logback is the successor to the much loved 
+<a href="http://logging.apache.org/log4j/">Log4J</a>, written by the same dude and
+<a href="http://logback.qos.ch/reasonsToSwitch.html">addressing</a> some of the
+problems with the original. 
 <br /><br />
-My manager wanted a way for our users to enable <i>individual</i> logging on the server and not require any meddling on the server by an administrator. A quick Google revealed <a href="http://stackoverflow.com/questions/840465/have-you-seen-an-appender-that-would-log-to-separate-files-based-on-ndc-in-log4j/925978#925978">this</a> and from there it wasn't hard to implement a start/stop trace button on each page which harnesses <a href="http://www.slf4j.org/api/org/slf4j/MDC.html">MDC</a> for per-user logging. On completion the trace can either be downloaded or emailed directly from the server to the system administrator or bug tracker.
+My manager wanted a way for our users to enable <i>individual</i> logging on
+the server and not require any meddling on the server by an administrator. A
+quick Google revealed
+<a href="http://stackoverflow.com/questions/840465/have-you-seen-an-appender-that-would-log-to-separate-files-based-on-ndc-in-log4j/925978#925978">this</a>
+and from there it wasn't hard to implement a start/stop trace button on each
+page which harnesses
+<a href="http://www.slf4j.org/api/org/slf4j/MDC.html">MDC</a> for per-user
+logging. On completion the trace can either be downloaded or emailed directly
+from the server to the system administrator or bug tracker.
 <br /><br />
-Honestly, if/when I ever work on another online application I will almost certainly re-implement something very similar again. Being able to capture a trace of everything from the server for a single user session has proven to be an invaluable tool for diagnosing bugs. Give it a whirl!
+Honestly, if/when I ever work on another online application I will almost
+certainly re-implement something very similar again. Being able to capture a
+trace of everything from the server for a single user session has proven to be
+an invaluable tool for diagnosing bugs. Give it a whirl!

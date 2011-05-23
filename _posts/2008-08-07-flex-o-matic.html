@@ -9,28 +9,77 @@ title: Flex-o-matic
 updated: 2008/08/07 06:03:16
 
 ---
-<a href="http://selenium-ide.openqa.org/selenium-ide.gif"><img src="http://selenium-ide.openqa.org/selenium-ide.gif" alt="" border="0" /></a>A few weeks ago I investigated Flex automated testing to determine it's feasibility for our new Flex project. On Wednesday my boss has asked me to follow through with that original investigation and get it up-and-running on our build loop ASAP.
+<a href="http://selenium-ide.openqa.org/selenium-ide.gif"><img src="http://selenium-ide.openqa.org/selenium-ide.gif" alt="" border="0" /></a>
+A few weeks ago I investigated Flex automated testing to determine it's
+feasibility for our new Flex project. On Wednesday my boss has asked me to
+follow through with that original investigation and get it up-and-running on
+our build loop ASAP.
+<br /><br />
+The tools I originally looked at:<br />
+<ol>
+<li>
+    <a href="http://en.wikipedia.org/wiki/HP_QuickTest_Professional">HP QuickTest Professional</a> or QTP. 
+This is the big daddy of Flex automation testing, and
+costs an arm and a leg. The funny thing is I couldn't seem to get this working
+last time. That and it looks like an old Windows 95 app (superficial I
+know).
+</li>
+<li>
+    <a href="http://riatest.com/">RIATest</a>. In many ways
+this is the nicest of the tools. Quick, simple and it just works (TM). However
+it's in very early stages, has its own IDE/language and only works on
+Windows.
+</li>
+<li>
+    <a href="http://www-306.ibm.com/software/awdtools/tester/functional/">Rational Functional Tester</a> or RFT,
+a set of Rational plugins for Eclipse. The business preferred option as we use this for other products as well.
 <br />
+</li>
+<li>
+    <a href="http://www.adobe.com/devnet/flex/samples/custom_automated/">Custom Automated Agents</a>, the adobe sample for automation testing. It's worth
+noting that all the above products are essentially just rebadged versions of
+this. This has the most power of all these tools, but is very bare bones and
+quite complicated to understand.
 <br />
-The tools I originally looked at:<br /><ol><li><a href="http://en.wikipedia.org/wiki/HP_QuickTest_Professional">HP QuickTest Professional</a> or QTP. This is the big daddy of Flex automation testing, and costs an arm and a leg. The funny thing is I couldn't seem to get this working last time. That and it looks like an old Windows 95 app (superficial I know).<br /></li><li><a href="http://riatest.com/">RIATest</a>. In many ways this is the nicest of the tools. Quick, simple and it just works (TM). However it's in very early stages, has its own IDE/language and only works on Windows.<br /></li><li><a href="http://www-306.ibm.com/software/awdtools/tester/functional/">Rational Functional Tester</a> or RFT, a set of Rational plugins for Eclipse. The business preferred option as we use this for other products as well.<br /></li><li><a href="http://www.adobe.com/devnet/flex/samples/custom_automated/">Custom Automated Agents</a>, the adobe sample for automation testing. It's worth noting that all the above products are essentially just rebadged versions of this. This has the most power of all these tools, but is very bare bones and quite complicated to understand.<br /></li></ol>Originally I had decided on RFT a few weeks ago and wrote some basic tests. However, today I spent some more time with it and ran into a few snags.
-<br />
-<br />
-Firstly our toolbar is a Flex MenuBar, which (for some <span>stupid</span> reason) doesn't handle ItemClick events for root items. Without this you can't perform the simplest of actions like searching. To get this working we would <span>have</span> to use something else. Strike one.
-<br />
-<br />
-Secondly the Grid data verification points were now returning blanks in every cell. After some snooping it turns out setting a custom itemRenderer for columns (ie combobox or checkbox) causes this to happen. Sadly we need to do this and I couldn't seem to fix the problem. Strike two.
-<br />
-<br />
-While none of these are show stoppers it made me realise I really didn't like using RFT, it felt flaky, so I thought I'd better re-examine my options.
-<br />
-<br />
-The other, as of yet unexplored option, was <a href="http://selenium.openqa.org/">Selenium</a>. Just the other day (literally) the<a href="http://sourceforge.net/projects/seleniumflexapi/"> new flex API</a> was released. Behind the scenes this is simply an exposed API via the Flex <a href="http://livedocs.adobe.com/flex/3/langref/flash/external/ExternalInterface.html">ExternalInterface</a> (basically a Flex/Javascript bridge). As I was looking at this I realised we could just expose our own custom API to compliment Selenium's.
-<br />
-<br />
-For some reason this latest option appeals to me as it potentially grants the most power and least amount of headaches. Using the above tools feels like we're getting locked into a specific way of using Flex. When something doesn't work, like it did today, there isn't much we can do except change <span>our</span> application to fit the required mold. Instead it would be nice if the automated tools were as <span>flex</span>ible as we need them to be.
-<br />
-<br />
-What we loose is the recording capability, which I don't think is a huge loss (but sad). Some of our other functional tests at work are also written by hand. It will also require some more initial tweaking while we flesh out our own internal API. My other concern is that it's not <span>exactly</span> the same as users interacting with the app, but then again neither are the above tools.
-<br />
-<br />
-I'm still not sure at this stage which option I'm going to settle on. Time is of the essence, and I really need to have something to show by next week. I'm hoping with some more testing tomorrow, Selenium will be just what the doctor ordered.
+</li>
+</ol>
+Originally I had decided on RFT a few weeks ago and wrote some basic tests.
+However, today I spent some more time with it and ran into a few snags.
+<br /><br />
+Firstly our toolbar is a Flex MenuBar, which (for some <span>stupid</span>
+reason) doesn't handle ItemClick events for root items. Without this you can't
+perform the simplest of actions like searching. To get this working we would
+<span>have</span> to use something else. Strike one.
+<br /><br />
+Secondly the Grid data verification points were now returning blanks in every
+cell. After some snooping it turns out setting a custom itemRenderer for
+columns (ie combobox or checkbox) causes this to happen. Sadly we need to do
+this and I couldn't seem to fix the problem. Strike two.
+<br /><br />
+While none of these are show stoppers it made me realise I really didn't like
+using RFT, it felt flaky, so I thought I'd better re-examine my options.
+<br /><br />
+The other, as of yet unexplored option, was <a href="http://selenium.openqa.org/">Selenium</a>. 
+Just the other day (literally) the<a href="http://sourceforge.net/projects/seleniumflexapi/"> new flex API</a>
+was released. Behind the scenes this is simply an exposed API via the Flex 
+<a href="http://livedocs.adobe.com/flex/3/langref/flash/external/ExternalInterface.html">ExternalInterface</a>
+(basically a Flex/Javascript bridge). As I was looking at this I realised we
+could just expose our own custom API to compliment Selenium's.
+<br /><br />
+For some reason this latest option appeals to me as it potentially grants the
+most power and least amount of headaches. Using the above tools feels like
+we're getting locked into a specific way of using Flex. When something doesn't
+work, like it did today, there isn't much we can do except change
+<span>our</span> application to fit the required mold. Instead it would be nice
+if the automated tools were as <span>flex</span>ible as we need them to be.
+<br /><br />
+What we loose is the recording capability, which I don't think is a huge loss
+(but sad). Some of our other functional tests at work are also written by hand.
+It will also require some more initial tweaking while we flesh out our own
+internal API. My other concern is that it's not <span>exactly</span> the same
+as users interacting with the app, but then again neither are the above tools.
+<br /><br />
+I'm still not sure at this stage which option I'm going to settle on. Time is
+of the essence, and I really need to have something to show by next week. I'm
+hoping with some more testing tomorrow, Selenium will be just what the doctor
+ordered.
