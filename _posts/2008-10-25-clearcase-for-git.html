@@ -1,0 +1,28 @@
+---
+author: Charles O'Farrell
+date: 2008/10/25 19:30:00
+draft: false
+encoding: utf8
+permalink: /2008/10/clearcase-for-git.html
+tags: [git clearcase python]
+title: A Clearcase for Git
+updated: 2008/11/10 13:23:37
+
+---
+My introduction to Clearcase began about two years again at my now current current job. Coming from SVN it seemed, and still is, so overly complicated and slow. What is this "config spec" you speak of? Anyway, I could write essays devoted to my loathing of Clearcase but this is not what this is about.
+<br /><br />
+I've been tempted for quite some time to introduce a DVCS, <span>any</span> DVCS, into the mix to make my life easier. However, I was concerned it may end up being just as much work as just sticking with Clearcase. I certainly didn't want to have to stuff around with manually deleting and adding files and native moving/renaming was also essential.
+<br /><br />
+I found some<a href="http://genaud.net/2008/08/clearcase-globally-git-locally/"> helpful scripts</a>, but nothing that really <span>just worked</span>.
+<br /><br />
+Anyway, I finally got my act together and put together a simple bridge which can push and pull changes into Git. About bloody time!
+<br /><br />
+<a href="http://github.com/charleso/git-cc/tree/master">http://github.com/charleso/git-cc/tree/master</a>
+<br /><br />
+The README is probably a good place to start for anyone interested.
+<br /><br />
+<span>Please note:</span> It's still very much a work in progress. However, I'm already using it at work to much joy and relief. Not more pointless checking out on private branches. No more VOB locking or stupid branch renaming for releases. Just sweet, sweet Gitness.
+<br /><br />
+A few basic examples:<br /><pre>python gitcc.py init d:\views\your_clearcase_view<br />python gitcc.py rebase<br /># Obligatory comment about getting coffee and doing work<br />python gitcc.py checkin<br /></pre>That's about it really. I'm interested to see if anyone else finds this useful or has any suggestions.
+<br /><br />
+Finally, it was so refreshing to finally work with Python again. I'd forgotten how simple and concise it is to use. I'm so entrenched in Java that, like an addiction, it's too easy to fall back on. That's not to say I'm addicted to Java, nor do I hate it particularly, but it's just so comfortable and I just don't have to think about it anymore. Sad really.

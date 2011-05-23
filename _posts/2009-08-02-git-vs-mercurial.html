@@ -1,0 +1,26 @@
+---
+author: Charles O'Farrell
+date: 2009/08/02 02:42:00
+draft: false
+encoding: utf8
+permalink: /2009/08/git-vs-mercurial.html
+tags: [git mercurial dvcs scm]
+title: The DVCS Wars
+updated: 2009/08/02 16:31:57
+
+---
+What is it about us nerds that dictates every discussion must be a war of some description? It isn't enough that we have two (or more) great technologies at our disposal, we also have to fight about it and of-course we have to be <a href="http://xkcd.com/386/">right</a>. For example the age-old conflict between Vi and Emacs seems to continue today, as passionately as ever. And why not? There's nothing like a good ol' fashioned flame war to get the blood pumping.
+<br /><br />
+This post, in all fairness, should really be called "Why I switched from Mercurial to Git". I actually quite like Mercurial and it was the original DVCS that opened my eyes to a world beyond SVN. Upon first hearing about the exciting  concept of DVCS I knew that I needed to get my hands on one ASAP. But of course it couldn't just be <span>any</span> DVCS, it had to be the best one. So I did some more reading, scoured blogs for any material I could find on the topic so I could make the perfect choice. And I did. Only I picked the wrong perfect one...
+<br /><br />
+Mercurial has so many good things going for it. The command line is clean and simple, and for SVN escapees feels very much like home. It's written in Python, which helps on Windows, and has a nice plugin architecture. In addition it has a good balance of speed and size, not requiring any silly garbage collection. Oh how I used to laugh at those poor Git fools, why couldn't they see the folly of their ways. So what changed? I guess curiosity got the better of me. I read <a href="http://www.rockstarprogrammer.org/post/2008/apr/06/differences-between-mercurial-and-git/">one</a> <a href="http://thunk.org/tytso/blog/2007/03/24/git-and-hg/">too</a> many pro-Git articles and realised I might just be missing something.
+<br /><br />
+What makes Git worth switching too then? In short, <a href="http://keithp.com/blogs/Repository_Formats_Matter/">the repository format</a>. Everything else, in my opinion, is just porcelain. The defining moment for me was when I learnt about <a href="http://www.gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html">reflog</a>. So anything I commit is safely backed-up for 90 days regardless of what I do to the visible history? Count me in!
+<br /><br />
+The safety net of Git's repository format in this respect is liberating. Commands like rebase are not so much 'modifying history' as modifying your view of history, because you can always retrieve the old version (within 90 days) if you need it again. On the other hand when you modify the history in Mercurial you <span>really are</span><span> </span>modifying the history. Whoops you've just stripped that commit from your repository; I hope you made a backup. This is one of those fundamental differences between Git and Mercurial, carefully <a href="http://www.nabble.com/Advocacy-vs.-git-tp23221258p23226084.html">considered</a> and implemented by their original designers. It means that in Git you have the trade-off of having to run a gc occasionally to remove those pesky unused objects. I'm cool with that if it means I get my reflog and a rebase that is 100% refundable, no questions asked. I should hastily add that I've never 'lost' a commit and I'm certainly not trying to suggest that Mercurial is unsafe. For me personally it's about that extra layer of comfort and freedom that Git provides.
+<br /><br />
+After that everything else seemed to just fall into place. I'd never really liked Mercurial's (previous) answer to local branches: <a href="http://mercurial.selenic.com/wiki/MqExtension">MQ</a>. Having to learn a whole new set of commands to essentially do the same thing. I kept forgetting which 'q' command did what. Why should I even <span>have </span>to remember different commands, why can't I just commit and rebase later? Of course I'm being simplistic here, and MQ is a very powerful tool, but what I really wanted was a way to work as normal and <span> </span>decide <a href="http://tomayko.com/writings/the-thing-about-git"><span>later</span></a> how to sync my changes.
+<br /><br />
+I find something strangely fascinating about version control, and I don't think I'm the only one either. It seems to be a topic that draws an unusual amount of attention, much to the <a href="http://www.nabble.com/gnome-dvcs-survey-results-tp21297884p21368916.html">continual</a> <a href="http://www.nabble.com/Re%3A-how-to-squash-commits-p23049314.html">annoyance</a> of their creators I'm sure. Like everything in life, there is no absolute right or wrong in regards to version control, as much as we'd like to argue there is [1]. What is perfect for someone may be hell for another. Many people have happily switched from Git to Mercurial, and while I think they're crazy I think I understand why. My rookie mistake was not playing with all the alternatives in the beginning. Git has turned out to be the ideal tool<span> </span>for<span> me</span>; it compliments the way I work and think in a way that Mercurial didn't or can't by design.
+<br /><br />
+[1] Unless of course you prefer Clearcase, in which case you're ugly and stupid. :-P

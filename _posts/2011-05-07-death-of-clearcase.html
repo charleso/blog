@@ -1,0 +1,42 @@
+---
+author: Charles O'Farrell
+date: 2011/05/07 02:37:00
+draft: false
+encoding: utf8
+permalink: /2011/05/death-of-clearcase.html
+tags: [git clearcase]
+title: Death of a Clearcase
+updated: 2011/05/14 06:33:02
+
+---
+Well it's been <span>quite</span> some time since my last post. Time has moved on in many respects, and yet it also feels like very little has changed. Someone at work suggested that I should add a final post to the saga of migrating away from Clearcase at work.
+<br />
+<br />
+The good news is: we won!
+<br />
+<br />
+That is to say that we now use Git for a majority of projects at work, with the last few being migrated as we speak. Huzzah!
+<br />
+<br />
+How did it happen?
+<br />
+<br />
+Sadly my persistent nagging made very little difference in the end. Fortunately, however, money did; the cost of continued licensing of Clearcase was not attractive to the bean counters upstairs. Combined with the increasing globalisation of our team meant that Git, or at least a free DVCS, became a very real option (free being the operative word). Mercurial was the first choice, but by those who didn't have any hands-on experience with either; a mistake I have blogged about earlier. Given that my team and I had been using Git in-anger for at least 6 months we fortunately (or unfortunately) managed to convince them to think again.
+<br />
+<br />
+We decided to host our source in The Cloud; specifically on GitHub. Now GitHub is an impressive site and I use it for all my open source projects. However, I do have one minor gripe: sadly GitHub has <a href="http://support.github.com/discussions/organization-issues/19-grant-permission-to-add-new-members-only">not yet</a> implemented fine-grained security for Organisations. Given that the majority of users are open source and would most likely fork-on-write this makes sense. In our environment where we effectively work on a single repository it would be nicer if we could delegate a project leader or leaders and have them add/remove users for their team. Add the moment only 'Owners' can appear to do that, who can then also  see billing information. The other problem is that with push authorisation you get force-push as well, which can be extremely dangerous in the hands of some. Not an ideal situation to be sure. Before the official migration we used the awesome <a href="https://github.com/sitaramc/gitolite">gitolite</a> which handled security beautifully, even down the branch/force push level. I would hope that at some point GitHub will adopt something more like that; but for now things are still 1 millions time better than using you-know-what and we can't complain too much.
+<br />
+<br />
+I should add that the obvious rebuttal to this complaint is that we probably need to consider switching to a more distributed/pull-model of collaboration, where everyone has their own repository. I don't disagree with this necessarily, but having a push model gives us high visibility of changes and a quick development cycle. A discussion for another day perhaps.
+<br />
+<br />
+And how about the users? Are they happy?
+<br />
+<br />
+As much as I love Git, I'm not finding it any easier to teach some of the finer points of Git and DVCS, and people still ask me for help on a daily basis. It does take a while for the difference between checkout and reset to sink-in, which I can emphasise with. Also multiple branches from within one repositories is something that causes confusion to begin with. Finally I am definitely well past getting to the point where I think overriding rebase as a default of pull is more hassle than its worth. Especially when people merge a support branch and then pull again, resulting in both the merge being undone and a duplicate commit being made. It doesn't help that Git does all this without a single warning or message.
+<br />
+<br />
+I guess what I've leant is that some developers just want to get their work done in peace. They don't really care about the finer points of source control, and they especially don't care about indexes, rebasing, DAGs or any other such nonsense. Perhaps in this respect Mercurial might have been a better choice? Less sharp edges for people to run into, and I could always run <a href="http://hg-git.github.com/">hg-git</a> locally to keep me happy. Who knows at this point. The decision has been made; the ship most definitely sailed. On the upside, I'm fairly sure most, if not all, people are happy about the switch away from Clearcase. The world is a better place for it too.
+<br />
+<br />
+My next obsession? Scala!

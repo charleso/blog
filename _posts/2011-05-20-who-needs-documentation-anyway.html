@@ -1,0 +1,32 @@
+---
+author: Charles O'Farrell
+date: 2011/05/20 19:41:00
+draft: false
+encoding: utf8
+permalink: /2011/05/who-needs-documentation-anyway.html
+tags: [documentation restructuredtext markup]
+title: Who needs documentation anyway?
+updated: 2011/05/20 19:41:18
+
+---
+So, we have a dilemma at work. How do the developers and documentation teams collaborate on a single set of documentation files while using familiar tools? Is such a thing possible or am I dreaming?
+<br /><br />
+Currently the documentation team at our work uses <a href="http://www.author-it.com/">Author-it</a>, a full-blown authoring 'solution'. For some time we, the developers, were been sent Word documents which we updated and emailed back. At this point the source control fanatic in me started to twitch. It's a document - just like source code - can I see who did what changes? How do two people work on the same document at the same time, and what about conflicts? Can I have multiple version of the same document? The other problem was one of cost; Author-it is too expensive to justify individual licenses for developers.
+<br /><br />
+We had talked about switching to a more text-based documentation system on-and-off for some time. Finally I cracked and decided to just do it.
+<br /><br />
+<a href="http://en.wikipedia.org/wiki/LaTeX">Latex</a> was the first possibility that surfaced. However, as I thought about it more the idea of everyone having to learn obtuse Latex syntax before writing a single-line of documentation was a little off-putting. Note: I really do like Latex, but I felt like it might have been overly complicated for our situation.
+<br /><br />
+The second alternative was to use a publication <a href="http://www.dclab.com/dita_docbook.asp">format</a> like <a href="http://www.docbook.org/">Docbook</a> or <a href="http://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture">DITA</a>. While certainly a powerful way to group content, the prospect of living in XML hell didn't enthuse me all that much. I already get enough of that in Java-land thank you very much.
+<br /><br />
+My final option was to use a lightweight markup langague, like <a href="http://daringfireball.net/projects/markdown/">Markdown</a> or <a href="http://docutils.sourceforge.net/rst.html">reStructureText</a> (ReST), which GitHub actively promotes for their README files. This felt like the right fit for us, and without further consultation I converted our current internal word documents to ReST, added them to Git and created a Jenkin job to output <a href="http://code.google.com/p/rst2pdf/">PDF</a> and HTML files. Bam!
+<br /><br />
+At this point us developers were happy again. We were back to using our favourite source control for collaboration, without have to stuff around with emailing Word documents. We could quickly edit text files, use source control to track/merge changes and didn't have to worry any more about niggling presentation issues. My manager, on the other hand, who was away at the time, was <i>not</i> so pleased. (I swear this had nothing to do with the timing of my rash decision).
+<br /><br />
+For us developers the idea of using a text editor to edit a document is a fairly comfortable one. For people used to - and who enjoy using - Word this was in some ways a big step backwards. No spell checking, no auto-complete, no drag 'n' drop. All that good stuff. Another complaint he had was about presentation - the PDF output wasn't slick enough to be used officially. Finally, if we wanted to switch to something else, ReST seemed to lack in some of the more powerful <a href="http://docs.oasis-open.org/dita/v1.0/archspec/topicover.html">concepts</a> required to support <a href="http://en.wikipedia.org/wiki/Single_source_publishing">single-source</a> publishing.
+<br /><br />
+I could definitely be wrong but it feels like nothing has quite <i>nailed</i> this space in the space, at least in the OSS community. What would certainly help is a powerful and easy to use  editor. Perhaps a plugin for Open Office would do the trick? Alternatively a browser-based editor, not too unlike <a href="http://rst.ninjs.org/">this</a>.
+<br /><br />
+We're currently in a holding pattern at the moment. Developers are still (happily) using ReST, but the 'official' stuff is being written by the documentation team. Us and them.
+<br /><br />
+I see a couple of available options:<br /><ol><li>What am I talking about, emailing Word documents around is fine - stop complaining.</li><li>Embrace Author-it and see if it can support more collaborators. Just looking at their website briefly it seems like they have an <a href="http://www.author-it.com/index.php?page=reviewer">online</a> review mode.</li><li>Meet my boss half-way, he can live without the nice GUI but we switch to a singe-source markup language like DocBook/DITA.</li><li>Everyone else be damned; developers rule; reStructuredText it is!</li></ol>I'm curious what other people have done in similar situations.<br /><ol></ol>
