@@ -46,3 +46,7 @@ blog.description = ""
 
 ## blog_timezone -- the timezone that you normally write your blog posts from
 blog.timezone = "Australia/Brisbane"
+
+#### Disqus.com comment integration ####
+blog.disqus.enabled = True
+blog.disqus.name    = "charleso"
