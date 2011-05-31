@@ -81,7 +81,6 @@ background-color: #fff;
 #main-wrapper {
 background: #ccddbb url("http://www.blogblog.com/no565/corner_main_left.gif") no-repeat right top;
 width:460px;
-float:left;
 color:#333333;
 font-size: 85%;
 word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
