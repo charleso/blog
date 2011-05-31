@@ -16,6 +16,9 @@
           ${next.body()}
           </div>
         </div><!-- End Prose Block -->
+        <div id="sidebar-wrapper">
+        ${self.sidebar()}
+        </div>
         <div class="clear">&nbsp;</div>
       </div><!-- End Main Block -->
       <div id="footer">
@@ -35,4 +38,9 @@
   <hr/>
   This is a footer that appears on every page.
   <%include file="footer.mako" />
+</%def>
+<%def name="sidebar()">
+  <div class="right_sidebar">
+    <%include file="sidebar.mako"  args="posts=posts" />
+  </div>
 </%def>
