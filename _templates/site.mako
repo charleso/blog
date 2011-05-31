@@ -16,6 +16,7 @@
           ${next.body()}
           </div>
         </div><!-- End Prose Block -->
+        <div class="clear">&nbsp;</div>
       </div><!-- End Main Block -->
       <div id="footer">
         ${self.footer()}
