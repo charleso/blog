@@ -7,17 +7,21 @@
     ${self.head()}
   </head>
   <body>
-    <div id="content">
+    <div id="outer-wrapper">
+    <div id="wrap2">
       ${self.header()}
-      <div id="main_block">
-        <div id="prose_block">
+      <div id="content-wrapper">
+        <div id="main-wrapper">
+          <div id="main" class="main section">
           ${next.body()}
+          </div>
         </div><!-- End Prose Block -->
       </div><!-- End Main Block -->
       <div id="footer">
         ${self.footer()}
       </div> <!-- End Footer -->
     </div> <!-- End Content -->
+    </div>
   </body>
 </html>
 <%def name="head()">
