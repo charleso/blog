@@ -16,4 +16,12 @@
   <ul>
     <li><a href="${bf.util.site_path_helper(bf.config.blog.path,'feed')}">Site RSS</a></li>
   </ul>
+  <h3>Categories</h3>
+  <ul>
+% for category, num_posts in bf.config.blog.all_categories:
+    <li>
+      <a href="${category.path}">${category}&nbsp;(${num_posts})</a><!--a href="${category.path}/feed">rss</a-->
+    </li>
+% endfor
+  </ul>
 </div>
