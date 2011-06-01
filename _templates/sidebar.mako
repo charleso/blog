@@ -4,6 +4,7 @@
     <li><a href="http://twitter.com/${bf.config.twitter_username}/">Twitter</a></li>
     <li><a href="http://github.com/${bf.config.github_username}/">Github</a></li>
     <li><a href="http://www.linkedin.com/${bf.config.linkedin_path}/">Linkedin</a></li>
+    <li><a href="${bf.config.cv_url}">CV</a></li>
   </ul>
   <h3>Blog Archive</h3>
   <ul>
