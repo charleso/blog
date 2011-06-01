@@ -35,8 +35,6 @@
   <%include file="header.mako" />
 </%def>
 <%def name="footer()">
-  <hr/>
-  This is a footer that appears on every page.
   <%include file="footer.mako" />
 </%def>
 <%def name="sidebar()">
