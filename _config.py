@@ -55,3 +55,20 @@ twitter_username = "charlesofarrell"
 github_username = "charleso"
 linkedin_path = "pub/charles-o-farrell/2b/701/182"
 cv_url = "http://cv.charleso.org/"
+
+### Pre/Post build hooks:
+import sys, os
+import shutil
+
+def pre_build():
+    if not os.path.isdir("_tmp"):
+        os.mkdir("_tmp")
+    else:
+        shutil.rmtree("_tmp")
+        os.mkdir("_tmp")
+    if os.path.isdir(os.path.join("_site",".git")):
+        shutil.move(os.path.join("_site",".git"),"_tmp")    
+    pass
+def post_build():
+    if os.path.isdir(os.path.join("_tmp",".git")):
+        shutil.move(os.path.join("_tmp",".git"),"_site")    
