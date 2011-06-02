@@ -68,7 +68,9 @@ def pre_build():
         os.mkdir("_tmp")
     if os.path.isdir(os.path.join("_site",".git")):
         shutil.move(os.path.join("_site",".git"),"_tmp")    
+        shutil.move(os.path.join("_site","CNAME"),"_tmp")    
     pass
 def post_build():
     if os.path.isdir(os.path.join("_tmp",".git")):
         shutil.move(os.path.join("_tmp",".git"),"_site")    
+        shutil.move(os.path.join("_tmp","CNAME"),"_site")    
