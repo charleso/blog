@@ -14,7 +14,7 @@
   </ul>
   <h3>Subscribe</h3>
   <ul>
-    <li><a href="${bf.util.site_path_helper(bf.config.blog.path,'feed')}">Site RSS</a></li>
+    <li><a href="${bf.config.rss_url}">Site RSS</a></li>
   </ul>
   <h3>Categories</h3>
   <ul>

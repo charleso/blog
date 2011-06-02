@@ -55,6 +55,7 @@ twitter_username = "charlesofarrell"
 github_username = "charleso"
 linkedin_url = "http://au.linkedin.com/in/charlesofarrell"
 cv_url = "http://cv.charleso.org/"
+rss_url = "http://feeds.feedburner.com/charleso"
 
 ### Pre/Post build hooks:
 import sys, os
