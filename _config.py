@@ -53,7 +53,7 @@ blog.disqus.name    = "charleso"
 
 twitter_username = "charlesofarrell"
 github_username = "charleso"
-linkedin_path = "pub/charles-o-farrell/2b/701/182"
+linkedin_url = "http://au.linkedin.com/in/charlesofarrell"
 cv_url = "http://cv.charleso.org/"
 
 ### Pre/Post build hooks:
