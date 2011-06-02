@@ -4,9 +4,7 @@ blog = bf.config.controllers.blog
 
 
 def run():
-    write_feed(blog.posts, bf.util.path_join(blog.path, "feed"), "rss.mako")
-    write_feed(blog.posts, bf.util.path_join(blog.path, "feed", "atom"),
-                          "atom.mako")
+    write_feed(blog.posts, bf.util.path_join(blog.path, "feeds/posts/default"), "atom.mako")
 
 def write_feed(posts, root, template):
     root = root.lstrip("/")
