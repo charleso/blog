@@ -11,7 +11,7 @@ draft: true
 ---
 
 Trying new things is an essential part of any software developer's day.
-However, will the day come in every developer's life that the cost of
+However, will the day come in every developer's life when the cost of
 changing the habits of a lifetime, or at least part of one, is greater
 than the cost of sticking with the devil you know?
 
