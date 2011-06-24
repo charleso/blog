@@ -15,7 +15,7 @@ However, will the day come in every developer's life that the cost of
 changing the habits of a lifetime, or at least part of one, is greater
 than the cost of sticking with the devil you know?
 
-I've been a Java developer for quite a few years now. At University we were shown CodeWarrior_, 
+I've been a Java developer for quite a few years. At University we were shown CodeWarrior_, 
 and looking back now all I can remember is a glorified syntax highligher.
 When I started at my first job the IDE of choice was JDeveloper_ which wasn't much better.
 At some stage shortly after I started a team member introduced us to Eclipse. 
