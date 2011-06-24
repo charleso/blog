@@ -8,7 +8,7 @@ title: Not-So-IntellJ
 updated: 2011/06/22 20:33:00
 draft: true
 
----
+"
 
 Trying new things is an essential part of any software developer's day.
 However, will the day come in every developer's life when the cost of
@@ -35,15 +35,17 @@ Fast forward to 2011 and I've been using Eclipse ever since. Almost every day of
 It's fair to say I know it like the back of my hand.
 Every shortcut; every nuance. However, you could also say I've become entrenched.
 
-One of the interesting working at my current company is observing and comparing the mindset of our older COBOL developers.
-Many of them have been using Emacs for 10+ years. They know the ins-and-outs, the custom shortcuts, the quirks.
+One of the interesting things about working at my current company is observing and comparing the mindset of our older COBOL developers.
+Many of them have been using Emacs for 10+ years. They know the ins-and-outs, the custom shortcuts, the quirks. (How about saying: "They know it like the backs of their hands. Every shortcut; every nuance."
 
 Sound familiar?
 
 XXX We've been (slowly) introducing Eclipse as the new environment for future development.
-I don't think I need to explain how well this news has been taken. XXX
+I don't think I need to explain how well this news has been taken. XXX 
 Now I'm drawing a long bow at this point, but the thought that I'm doomed to a similar fate
 has certainly crossed my mind more than once recently.
+
+[George: What about: "We've been (slowly) introducing Eclipse as the new environment for future development. As you might imagine, it has not been completely well received by the COBOL developers. But that's hardly surprising is it? It's new. And different. And it has certainly crossed my mind that if we were changing to Emacs, I would have a similar reaction to them. The difficulty of learning a completely new way of doing something totally familiar is, I suspect, a human condition.]
 
 For some time I heard nothing but good_ things about IntelliJ_ IDEA,
 and I've been meaning to make a switch. Every now-and-then I would download the latest copy, fire it up
@@ -55,10 +57,10 @@ And of course, that time never comes. Why bother, when Eclipse does everything I
 .. _IntelliJ: http://www.jetbrains.com/idea/
 
 With the advent of Scala I may now found a compelling reason to try one last time.
-After a brief trial, and some research_, I found the Eclipse plugin_ to be the lesser of the two.
+After a brief trial, and some research_, I found the Eclipse plugin_ to be the lesser of the two. (Question: lesser of 2 what?)
 I should note that at the time of writing this was version 2.0.0-beta5, and I strongly suspect 
-that given the support that `Martin Odersky`_ has personally_ put his support 
-behind the endevour that this situation may be reversed in a few months. Who knows.
+that given that `Martin Odersky`_ has personally_ put his support 
+behind the endeavour that this situation may be reversed in a few months. Who knows?
 
 .. _plugin: http://www.scala-ide.org/
 .. _Martin Odersky: http://en.wikipedia.org/wiki/Martin_Odersky
@@ -69,8 +71,8 @@ I decided to go cold-turkey and live within IntelliJ for the next couple of week
 Until I get sick of it, or I finally see the light I suppose.
 
 Probably the biggest problem that I've come across so far is the lack of a feature complete Ivy plugin.
-The Eclipse plugin, IvyDE_, is really quite impressive. For IntelliJ there are a number_ of_ options_, but none
-of them quite good enough to give a seemless experience. For my money IvyIDEA_ is the most mature,
+The Eclipse plugin, IvyDE_, is really quite impressive. For IntelliJ there is a number_ of_ options_; none
+of them quite good enough to give a seamless experience. For my money IvyIDEA_ is the most mature,
 but sadly it is no longer being maintained as of this year. Jetbrains has indicated_ that they might be
 considering introducing native support, but this isn't the first of such claims_. Actually I suspect
 it will happen sooner rather than later, but of course that doesn't help us *right now*. 
@@ -86,13 +88,13 @@ in projects, although this can be fixed manually.
 .. _indicated: http://blogs.jetbrains.com/idea/2011/02/announcing-intellij-idea-105-with-full-java-7-support/#comment-170861
 .. _claims: http://blogs.jetbrains.com/idea/2010/05/maven-dependencies-diagram/#comment-136123
 
-Another problem is that IntelliJ has more difficulty with *unnaturally* large jars. And when I say 'unnatural',
-I really do mean it. For example we hve an unusually large jar which is about 222MB, containing roughly 19000 classes.
-I'm not sure there are many people who can claim to have such a beast, nor would any want to.
+Another problem is that IntelliJ has more difficulty with *unnaturally* large jars (Question: more difficulty than what?). And when I say 'unnatural',
+I really do mean it. For example we have an unusually large jar which is about 222MB, containing roughly 19000 classes.
+I'm not sure there are many people who can claim to have such a beast, nor would many want to.
 I'd rather not delve into why on *God's Earth* we managed to concoct such a monstrosity, suffice to say we don't 
-have much choice and I hope to get a chance to explain why in a future post. 
+have much choice. Actually, I hope to get a chance to explain why in a future post. 
 For now the issue is that while IntelliJ is indexing, which happens on *every* startup, you might as well go and get a coffee, 
-because there is very little you can do while it happening. For that one jar it takes roughly an hour. Yes, an hour.
+because there is very little you can do while it happens. For that one jar it takes roughly an hour. Yes, an hour.
 I'm glad I'm not trying this with IDEA 9, because apparently_ it was worse.
 Eclipse, while also struggling, at least lets you go about your business. 
 For example you can't even create classes in IntelliJ while it's indexing.
@@ -106,7 +108,7 @@ After so many years of doing things with Eclipse it's hard to re-train my brain/
 Now, there is a handy built-in Eclipse keymap, which would save me some of that work. 
 However, I'm a *firm* believer in defaults. I've found that you can be much more productive if you reduce 
 your dependency on a personalised configuration. For example I try to avoid creating Git aliases, which
-helps when I switch machines ie to help other people.
+helps when I switch machines--for example, to help other people.
 
 Now I'm sure this next part is inherently biased given my background, but I'm going to put it out there anyway - 
 I think *some* of the shortcuts in IntelliJ are poorly chosen, *especially* for a poor Linux user like myself.
@@ -130,21 +132,21 @@ Even better it displays the shortcut next to each option.
 
 I'm still finding my way with IntelliJ, but I'm already finding some nice surprises.
 One of the initial things that I like about it already is that
-you can nominate folder as being 'test'. This helps when navigating the call heirarchy of the method. 
-Quite often you want to exclue calls made by test methods, as they only serve to get in the way.
+you can nominate folder as being 'test'. This helps when navigating the call hierarchy of the method. 
+Quite often you want to exclude calls made by test methods, as they only serve to get in the way.
 
-Another feature I love is the Spring facet. IntelliJ automagically found my Spring files and annotated
-methods that had been aspected. Eclipse has a equivalent plugin, but I have never bothered to install it before.
-I suppose that's one of the arguabley nice things about IntelliJ - that it works out-of-the-box with the *stuff that matters*.
+Another feature I love is the Spring facet. IntelliJ automagically (Question: did you mean to say 'automagically?) found my Spring files and annotated
+methods that had been aspected. (Question: aspected?) Eclipse has a equivalent plugin, but I have never bothered to install it before.
+I suppose that's one of the arguably nice things about IntelliJ - that it works out-of-the-box with the *stuff that matters*.
 In some ways this reminds my of one of the strongly debated differences between Git and Mercurial,
 the former has everything-but-the-kitchen-sink, the latter can be enhanced via plugins. 
-There are advantages and disadvantages to both; which you prefer largely depends on personal preference.
+There are advantages and disadvantages to both; which you like largely depends on personal preference.
 
 Finally, I have noticed that general navigating around Java classes is *much* snappier,
-such as following links, viewing call heirarchies etc. I sometimes avoid doing simple refactors in Eclipse
+such as following links, viewing call hierarchies etc. I sometimes avoid doing simple refactors in Eclipse
 because it's actually faster to do it manually.
 This is probably due the deeper/slower indexing that IntelliJ does on startup, as mentioned earlier.
 Although why Eclipse can't do the same thing is a mystery to me...
 
-If anyone has a similiar experience with IntelliJ, working with defaults or general feedback please don't hestitate to comment. 
+If anyone has a similar experience with IntelliJ, working with defaults or general feedback please don't hesitate to comment. 
 I'm curious how other people have tackled XXX
