@@ -17,7 +17,8 @@ Chapter 1: How we converted our entire COBOL code-base to Java (sort-of).
 That's normal and should pass shortly after you finish reading.*
 
 COBOL? WTF?!? This is usually the first thing people say to me when I tell them
-about this. I'm sad to say that COBOL is still very much in use_.
+about what I've been working on. I'm sad to say that COBOL is still very much
+in use_.
 
 .. _use: http://en.wikipedia.org/wiki/COBOL#Legacy
 
