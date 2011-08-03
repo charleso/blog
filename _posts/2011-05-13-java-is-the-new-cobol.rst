@@ -26,6 +26,12 @@ many years and over time we have built up a unbelievably large code-base of COBO
 consisting of millions of lines. Re-writing this is both costly and
 time-consuming, not to mention risky. We needed another option.
 
+Another serious problem is that the upfront cost of CICS, the COBOL
+'application server' if you will, running on dedicated Mainframe hardware,
+*plus* the cost of Micro Focus licenses, for compiling COBOL, is *bloody*
+expensive. If we could run on a 100% Java stack, using open source technologies,
+we could save ourselves, and our customers, cold, hard cash. 
+
 At this point I need to mention something 'special' about how we use COBOL. To
 support a wide-range of transaction systems and databases we developed a custom
 variation of the language, which included custom-built 'macros' which generate 
