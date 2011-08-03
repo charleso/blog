@@ -8,7 +8,7 @@ title: Not-So-IntellJ
 updated: 2011/06/22 20:33:00
 draft: true
 
-"
+---
 
 Trying new things is an essential part of any software developer's day.
 However, will the day come in every developer's life when the cost of
@@ -101,7 +101,7 @@ For example you can't even create classes in IntelliJ while it's indexing.
 To avoid this I've, ahem, 'tweaked' com.intellij.openapi.project.CacheUpdateSession in idea.jar to bypass
 certain jars being indexed. It's not perfect, but it means I can restart IntelliJ without losing an hour.
 
-.. apparently: http://blogs.jetbrains.com/idea/2010/12/intellij-idea-10-rc-3-indexing-speed-improvements/
+.. _apparently: http://blogs.jetbrains.com/idea/2010/12/intellij-idea-10-rc-3-indexing-speed-improvements/
 
 In many ways the hardest thing to deal with on a day-to-day basis is the complete remapping of keyboard shortcuts.
 After so many years of doing things with Eclipse it's hard to re-train my brain/finger mapping.
