@@ -128,5 +128,5 @@ from a business point-of-view it has been crucial in the continued success and
 evolution of our product; giving us breathing room to slowly migrate COBOL
 logic to 'normal' Java applications while guaranteeing our business logic
 continues to serve our customers. Or at least that's what our marketing
-brochures say; for me it was just fun.
+brochures say; for me it was fun.
 
