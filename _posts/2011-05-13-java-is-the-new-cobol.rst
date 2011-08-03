@@ -19,9 +19,9 @@ That's normal and should pass shortly after you finish reading.*
 COBOL? WTF?!? This is usually the first thing people say to me when I tell them
 about this. I'm sad to say that COBOL is still very much in use_.
 
-.. _use: http://en.wikipedia.org/wiki/COBOL#Legacy>_
+.. _use: http://en.wikipedia.org/wiki/COBOL#Legacy
 
-The dilemma that my company faced was that our main product has been around for
+The dilemma that our company faced was that our main product has been around for
 many years and over time we have built up a unbelievably large code-base of COBOL,
 consisting of millions of lines. Re-writing this is both costly and
 time-consuming, not to mention risky. We needed another option.
@@ -72,7 +72,7 @@ there was much more potential on NACA's generated Java and general approach.
 
 The most obvious was that the Java was actually readable! At least if you count_
 this as readable. NACA actually checked-in their Java files after the
-conversion, so for them the code had to be both readable and maintainable. This
+conversion, so the code had to be both readable and maintainable. This
 also had the nice side-effect of allowing our absolutely massive generated
 COBOL programs to compile (in 99% of cases anyway).
 
