@@ -9,8 +9,8 @@ updated: 2011/08/30 20:33:00
 
 ---
 
-Recently, at the `Queensland JVM Meetup group
-<http://www.meetup.com/qldjvm/>`_,
+Recently at the `Queensland JVM Meetup group
+<http://www.meetup.com/qldjvm/>`_
 I gave a `Scala introduction presentation
 <http://www.meetup.com/qldjvm/events/26374761/>`_,
 with some good 'ol Java bashing to boot.
