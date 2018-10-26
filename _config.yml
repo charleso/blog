@@ -1,0 +1,10 @@
+title: Charles O'Farrell
+email: charleso@charleso.org
+baseurl: ""
+url: "https://blog.charleso.org"
+twitter_username: charlesofarrell
+github_username:  charleso
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed

@@ -6,7 +6,7 @@ permalink: /2011/05/not-so-intellij.html
 categories: eclipse, intellij
 title: Not-So-IntellJ
 updated: 2011/06/22 20:33:00
-draft: true
+layout: post
 
 ---
 
@@ -15,13 +15,13 @@ However, will the day come in every developer's life when the cost of
 changing the habits of a lifetime, or at least part of one, is greater
 than the cost of sticking with the devil you know?
 
-I've been a Java developer for quite a few years. At University we were shown CodeWarrior_, 
+I've been a Java developer for quite a few years. At University we were shown [CodeWarrior], 
 and looking back now all I can remember is a glorified syntax highligher.
-When I started at my first job the IDE of choice was JDeveloper_ which wasn't much better.
+When I started at my first job the IDE of choice was [JDeveloper] which wasn't much better.
 At some stage shortly after I started a team member introduced us to Eclipse. 
 
-.. _CodeWarrior: http://en.wikipedia.org/wiki/CodeWarrior
-.. _JDeveloper: http://en.wikipedia.org/wiki/JDeveloper
+[CodeWarrior]: http://en.wikipedia.org/wiki/CodeWarrior
+[JDeveloper]: http://en.wikipedia.org/wiki/JDeveloper
 
 Wow.
 
@@ -47,46 +47,46 @@ has certainly crossed my mind more than once recently.
 
 [George: What about: "We've been (slowly) introducing Eclipse as the new environment for future development. As you might imagine, it has not been completely well received by the COBOL developers. But that's hardly surprising is it? It's new. And different. And it has certainly crossed my mind that if we were changing to Emacs, I would have a similar reaction to them. The difficulty of learning a completely new way of doing something totally familiar is, I suspect, a human condition.]
 
-For some time I heard nothing but good_ things about IntelliJ_ IDEA,
+For some time I heard nothing but [good] things about [IntelliJ] IDEA,
 and I've been meaning to make a switch. Every now-and-then I would download the latest copy, fire it up
 and see if I could be awed once again, much like my first Eclipse experience. Being slightly disappointed,
 and a little frustrated in the differences, I close it down again. *Perhaps when I have more time* I say to myself.
 And of course, that time never comes. Why bother, when Eclipse does everything I need?
 
-.. _good: http://www.aldana-online.de/2010/12/12/intellij-idea-rocks-revisted-for-10/
-.. _IntelliJ: http://www.jetbrains.com/idea/
+[good]: http://www.aldana-online.de/2010/12/12/intellij-idea-rocks-revisted-for-10/
+[IntelliJ]: http://www.jetbrains.com/idea/
 
 With the advent of Scala I may now found a compelling reason to try one last time.
-After a brief trial, and some research_, I found the Eclipse plugin_ to be the lesser of the two. (Question: lesser of 2 what?)
+After a brief trial, and some [research], I found the Eclipse [plugin] to be the lesser of the two. (Question: lesser of 2 what?)
 I should note that at the time of writing this was version 2.0.0-beta5, and I strongly suspect 
-that given that `Martin Odersky`_ has personally_ put his support 
+that given that [Martin Odersky] has [personally] put his support 
 behind the endeavour that this situation may be reversed in a few months. Who knows?
 
-.. _plugin: http://www.scala-ide.org/
-.. _Martin Odersky: http://en.wikipedia.org/wiki/Martin_Odersky
-.. _personally: http://skillsmatter.com/podcast/scala/the-new-scala-eclipse-plug-in/js-2088
-.. _research: http://stackoverflow.com/questions/419207/which-is-the-best-ide-for-scala-development
+[plugin]: http://www.scala-ide.org/
+[Martin Odersky]: http://en.wikipedia.org/wiki/Martin_Odersky
+[personally]: http://skillsmatter.com/podcast/scala/the-new-scala-eclipse-plug-in/js-2088
+[research]: http://stackoverflow.com/questions/419207/which-is-the-best-ide-for-scala-development
 
 I decided to go cold-turkey and live within IntelliJ for the next couple of weeks until, well, I don't know.
 Until I get sick of it, or I finally see the light I suppose.
 
 Probably the biggest problem that I've come across so far is the lack of a feature complete Ivy plugin.
-The Eclipse plugin, IvyDE_, is really quite impressive. For IntelliJ there is a number_ of_ options_; none
-of them quite good enough to give a seamless experience. For my money IvyIDEA_ is the most mature,
-but sadly it is no longer being maintained as of this year. Jetbrains has indicated_ that they might be
-considering introducing native support, but this isn't the first of such claims_. Actually I suspect
+The Eclipse plugin, [IvyDE], is really quite impressive. For IntelliJ there is a [number] [of] [options]; none
+of them quite good enough to give a seamless experience. For my money [IvyIDEA] is the most mature,
+but sadly it is no longer being maintained as of this year. Jetbrains has [indicated] that they might be
+considering introducing native support, but this isn't the first of such [claims]. Actually I suspect
 it will happen sooner rather than later, but of course that doesn't help us *right now*. 
-Just for the sake of completeness the biggest problem at the moment_ is the lack of transitive dependencies
+Just for the sake of completeness the biggest problem at the [moment] is the lack of transitive dependencies
 in projects, although this can be fixed manually.
 
-.. _IvyDE: http://ant.apache.org/ivy/ivyde/
-.. _number: http://plugins.intellij.net/plugin/?id=141
-.. _of: http://plugins.intellij.net/plugin/?id=2267
-.. _options: http://plugins.intellij.net/plugin/?id=3612
-.. _IvyIDEA: http://code.google.com/p/ivyidea/
-.. _moment: http://code.google.com/p/ivyidea/issues/detail?id=36
-.. _indicated: http://blogs.jetbrains.com/idea/2011/02/announcing-intellij-idea-105-with-full-java-7-support/#comment-170861
-.. _claims: http://blogs.jetbrains.com/idea/2010/05/maven-dependencies-diagram/#comment-136123
+[IvyDE]: http://ant.apache.org/ivy/ivyde/
+[number]: http://plugins.intellij.net/plugin/?id=141
+[of]: http://plugins.intellij.net/plugin/?id=2267
+[options]: http://plugins.intellij.net/plugin/?id=3612
+[IvyIDEA]: http://code.google.com/p/ivyidea/
+[moment]: http://code.google.com/p/ivyidea/issues/detail?id=36
+[indicated]: http://blogs.jetbrains.com/idea/2011/02/announcing-intellij-idea-105-with-full-java-7-support/#comment-170861
+[claims]: http://blogs.jetbrains.com/idea/2010/05/maven-dependencies-diagram/#comment-136123
 
 Another problem is that IntelliJ has more difficulty with *unnaturally* large jars (Question: more difficulty than what?). And when I say 'unnatural',
 I really do mean it. For example we have an unusually large jar which is about 222MB, containing roughly 19000 classes.
@@ -95,13 +95,13 @@ I'd rather not delve into why on *God's Earth* we managed to concoct such a mons
 have much choice. Actually, I hope to get a chance to explain why in a future post. 
 For now the issue is that while IntelliJ is indexing, which happens on *every* startup, you might as well go and get a coffee, 
 because there is very little you can do while it happens. For that one jar it takes roughly an hour. Yes, an hour.
-I'm glad I'm not trying this with IDEA 9, because apparently_ it was worse.
+I'm glad I'm not trying this with IDEA 9, because [apparently] it was worse.
 Eclipse, while also struggling, at least lets you go about your business. 
 For example you can't even create classes in IntelliJ while it's indexing.
 To avoid this I've, ahem, 'tweaked' com.intellij.openapi.project.CacheUpdateSession in idea.jar to bypass
 certain jars being indexed. It's not perfect, but it means I can restart IntelliJ without losing an hour.
 
-.. _apparently: http://blogs.jetbrains.com/idea/2010/12/intellij-idea-10-rc-3-indexing-speed-improvements/
+[apparently]: http://blogs.jetbrains.com/idea/2010/12/intellij-idea-10-rc-3-indexing-speed-improvements/
 
 In many ways the hardest thing to deal with on a day-to-day basis is the complete remapping of keyboard shortcuts.
 After so many years of doing things with Eclipse it's hard to re-train my brain/finger mapping.
