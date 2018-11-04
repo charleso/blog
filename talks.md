@@ -27,7 +27,7 @@ functions. In addition the audience will have gained confidence in their ability
 to recognise good and bad functions, and to better evaluate the cost of the
 libraries they inhabit.
 
-- [Slide](https://charleso.github.io/lambdajam-web-functions/)
+- [Slides](https://charleso.github.io/lambdajam-web-functions/)
 - [Video](https://www.youtube.com/watch?v=WhUFaZMFt6A)
 
 
