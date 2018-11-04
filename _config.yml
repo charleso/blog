@@ -10,4 +10,5 @@ plugins:
   - jekyll-feed
 
 header_pages:
+  - resume/index.md
   - talks.md
