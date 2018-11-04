@@ -10,5 +10,8 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - resume/index.md
+  - blog.md
   - talks.md
+  - software.md
+  - teaching.md
+  - resume/index.md
