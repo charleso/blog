@@ -29,7 +29,7 @@ add new functions dealing with the type, all you need to do is pattern match
 anywhere you like, but it's very expensive to add new constructors (see
 [Expression Problem](#expression-problem) below for more reading).
 
-This concept can be expressed in Scala by using the sealed trait language
+This concept can be expressed in Scala by using the `sealed trait` language
 feature. The implementation is sometimes referred to as using "sum types" from
 [algebraic data-types](https://en.wikipedia.org/wiki/Algebraic_data_type) (or ADTs).
 
