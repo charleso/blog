@@ -41,7 +41,9 @@ thing" and lifting a function/module in to a library we copy and paste it.
 
 How do we lower the level of pain, even just a _fraction_?
 
-Source Dependencies Source dependencies are where you depend on another
+## Source Dependencies
+
+Source dependencies are where you depend on another
 module/library and expect that your build process will be responsible to compile
 it instead of someone else.
 
@@ -109,7 +111,8 @@ fix?
 ```
 > cd submodule/example
 vi src/my/Example.scala
-> cd ../..  sbt compile
+> cd ../..
+> sbt compile
 ```
 
 Rinse and repeat. That's it! The barrier to fixing or changing your library is
@@ -122,17 +125,16 @@ now almost zero. What about when you're done and want to "release":
 > cd submodule/example
 > git add .
 > git commit -m "Fix bug"
-> git push origin
-> feature/ACP-123-bug-fix
+> git push origin feature/ACP-123-bug-fix
 
-> cd ..  git status
+> cd ..
+> git status
   Changes not staged for commit:
     (use "git add <file>..." to update what will be committed)
           modified:   submodule/example (new commits)
 > git add .
 > git commit -m "Updated example with bug fix"
-> git push origin
-> feature/ACP-123-bug-fix
+> git push origin feature/ACP-123-bug-fix
 ```
 
 The two projects may not be committed/pushed quite so quickly together. It may
