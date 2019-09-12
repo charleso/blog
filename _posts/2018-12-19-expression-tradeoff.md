@@ -51,7 +51,7 @@ Unfortunately the subtyping language feature in Scala can causes a great deal of
 pain/problems when mixing these constructors. Especially with data types that
 aren't covariant (ie don't have use a +). For example:
 
-```
+```scala
 import scalaz._
 
 type X[B] = \/[Category, B]
@@ -61,7 +61,7 @@ val value = for {
 } yield ()
 ```
 
-```
+```scala
 Error:(18, 9) type mismatch;
  found   : scalaz.EitherT[X,Category.Nominal.type,Unit]
  required: scalaz.EitherT[X,Category.Hostname.type,?]
@@ -116,7 +116,7 @@ changing constructors handle the new behaviour. Once you use a wildcard
 (underscore) pattern match, all bets are off and you won't get any warning that
 behaviour might need to change or be extended.
 
-```
+```scala
 def isNominal(c: Category) =
   c match {
     case Nominal => true
@@ -179,7 +179,8 @@ reading).
 ```scala
 trait UserService {
 
-  def get(id: UserId): Option[User] }
+  def get(id: UserId): Option[User]
+}
 
 class HadoopUserService extends UserService {
 }
@@ -216,10 +217,11 @@ can lead to bugs. It also increases the surface of the abstraction/type which
 is harder to reason about. It really isn't that hard to derive functions based
 on the original one:
 
-```
+```scala
 trait UserService {
 
-  def getByIds(ids: List[UserId]): Map[Id, UserId] }
+  def getByIds(ids: List[UserId]): Map[Id, UserId]
+}
 
 object UserService {
 
@@ -242,7 +244,7 @@ or implemented in different ways. It forces you to think clearly about the real
 Note that using the trait Scala language feature to implement an open type is
 identical in concept to using a case class with function fields.
 
-```
+```scala
 case class UserService( getByIds: List[UserId] => Map[Id, UserId])
 
 object UserService {

@@ -108,7 +108,7 @@ lazy val root =
 Management of the version number is now done at the git level. Want to make a
 fix?
 
-```
+```shell
 > cd submodule/example
 vi src/my/Example.scala
 > cd ../..
@@ -207,4 +207,4 @@ improve the caching if/when it becomes an issue.
 A blog that really started to change how I thought about build
 system was the following.
 
-- http://blog.lexspoon.org/2012/12/recursive-maven-considered-harmful.html
+- [Recursive Maven considered harmful](http://blog.lexspoon.org/2012/12/recursive-maven-considered-harmful.html)
