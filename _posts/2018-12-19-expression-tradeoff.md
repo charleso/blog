@@ -294,4 +294,4 @@ It's hard to point to a single explanation exactly to what problems variance
 causes in Scala. I'll try to add the best links I can find to the following
 list.
 
-- https://leanpub.com/fpmortals/read#leanpub-auto-type-variance
+- [https://leanpub.com/fpmortals/read#leanpub-auto-type-variance]()
